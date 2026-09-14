@@ -1,0 +1,2 @@
+# Packages installed from the Arch User Repository.
+ferdium-bin

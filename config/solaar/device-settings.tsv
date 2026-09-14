@@ -1,0 +1,20 @@
+# Device role<TAB>setting<TAB>value<TAB>optional sub-value
+# Captured from the finished Solaar configuration on 2026-09-13.
+# Pairing/host slots and transient device metadata are intentionally excluded.
+mouse	dpi	5000
+mouse	hires-scroll-mode	false
+mouse	hires-smooth-invert	false
+mouse	hires-smooth-resolution	false
+mouse	scroll-ratchet	Ratcheted
+mouse	smart-shift	50
+mouse	thumb-scroll-invert	false
+mouse	thumb-scroll-mode	true
+mouse	divert-keys	Mouse Gesture Button	Mouse Gestures
+mouse	divert-keys	Smart Shift	Diverted
+keyboard	backlight	Automatic
+keyboard	backlight_level	2
+keyboard	backlight_duration_hands_out	30
+keyboard	backlight_duration_hands_in	30
+keyboard	backlight_duration_powered	300
+keyboard	fn-swap	true
+keyboard	multiplatform	Linux

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+set -euo pipefail
+
+upstream_menu="/usr/share/omarchy/bin/omarchy-menu-keybindings"
+
+if [[ ! -r "$upstream_menu" ]]; then
+  echo "Unable to read the Omarchy keybindings menu: $upstream_menu" >&2
+  exit 1
+fi
+
+# Keep Omarchy's packaged menu implementation current, injecting only the
+# non-Hyprland controls managed by Solaar.
+cache_root="${XDG_CACHE_HOME:-$HOME/.cache}/omarchy-mx-keybindings-v4"
+export XDG_CACHE_HOME="$cache_root"
+
+exec bash <(
+  awk '
+    /^static_bindings\(\) \{/ {
+      print
+      print "  echo \",MX Mouse · Button below scroll wheel,Close application,lua,hl.dsp.window.close()\""
+      print "  echo \",MX Mouse · Gesture press,Application launcher,exec,omarchy-menu toggle apps\""
+      print "  echo \",MX Mouse · Gesture left,Move window left,lua,hl.dsp.window.swap({ direction = \\\"l\\\" })\""
+      print "  echo \",MX Mouse · Gesture right,Move window right,lua,hl.dsp.window.swap({ direction = \\\"r\\\" })\""
+      print "  echo \",MX Mouse · Gesture up,Toggle fullscreen,lua,hl.dsp.window.fullscreen({ mode = \\\"fullscreen\\\" })\""
+      print "  echo \",MX Mouse · Gesture down,Move window to scratchpad,lua,hl.dsp.window.move({ workspace = \\\"special:scratchpad\\\", follow = false })\""
+      print "  echo \",MX Mouse · Thumb wheel up,Previous occupied workspace,exec,system-mirror-workspace-cycle previous\""
+      print "  echo \",MX Mouse · Thumb wheel down,Next occupied workspace,exec,system-mirror-workspace-cycle next\""
+      next
+    }
+
+    { print }
+  ' "$upstream_menu"
+) "$@"

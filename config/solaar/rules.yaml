@@ -1,0 +1,41 @@
+%YAML 1.3
+---
+- Device: CCAF987C
+- Key: [Smart Shift, pressed]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.close()']
+...
+---
+- Device: CCAF987C
+- MouseGesture: [Mouse Gesture Button]
+- Execute: [omarchy-menu, toggle, apps]
+...
+---
+- Device: CCAF987C
+- MouseGesture: [Mouse Gesture Button, Mouse Left]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.swap({ direction = "l" })']
+...
+---
+- Device: CCAF987C
+- MouseGesture: [Mouse Gesture Button, Mouse Right]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.swap({ direction = "r" })']
+...
+---
+- Device: CCAF987C
+- MouseGesture: [Mouse Gesture Button, Mouse Up]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.fullscreen({ mode = "fullscreen" })']
+...
+---
+- Device: CCAF987C
+- MouseGesture: [Mouse Gesture Button, Mouse Down]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.move({ workspace = "special:scratchpad", follow = false })']
+...
+---
+- Device: CCAF987C
+- Feature: THUMB WHEEL
+- Rule:
+  - Test: [thumb_wheel_up, 10]
+  - Execute: [system-mirror-workspace-cycle, previous]
+- Rule:
+  - Test: [thumb_wheel_down, 10]
+  - Execute: [system-mirror-workspace-cycle, next]
+...

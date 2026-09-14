@@ -1,0 +1,2 @@
+-- Personal input overrides can be added here. Logitech MX behavior that Solaar
+-- owns lives in ~/.config/solaar/rules.yaml instead of Hyprland's input block.

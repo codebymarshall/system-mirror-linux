@@ -1,0 +1,1 @@
+-- Keep Omarchy's theme-managed appearance defaults.

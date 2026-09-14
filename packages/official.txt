@@ -1,0 +1,17 @@
+# Additions to a stock Omarchy installation. Hardware/kernel packages are
+# deliberately left to Omarchy's hardware detection.
+bitwarden
+cursor-bin
+easyeffects
+fd
+fzf
+git
+jq
+lazygit
+mise-bin
+openai-codex-desktop
+ripgrep
+solaar
+voxtype-bin
+wev
+zoxide

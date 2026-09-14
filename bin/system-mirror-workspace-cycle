@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+direction=${1:-}
+case "$direction" in
+  previous) offset=-1 ;;
+  next) offset=1 ;;
+  *)
+    echo "Usage: $0 previous|next" >&2
+    exit 2
+    ;;
+esac
+
+command -v hyprctl >/dev/null 2>&1 || exit 1
+command -v jq >/dev/null 2>&1 || exit 1
+
+# Named workspace IDs are hashes, so Hyprland's e+1/e-1 ordering can appear to
+# reverse as named workspaces are created. Cycle by the user's declared order
+# instead and ignore workspaces that contain no windows.
+workspace_order=(Home Work Dev Office Gaming Media Comms)
+workspaces_json=$(hyprctl workspaces -j)
+active_name=$(hyprctl activeworkspace -j | jq -r '.name // empty')
+
+declare -A occupied=()
+while IFS=$'\t' read -r name window_count; do
+  if [[ $window_count =~ ^[0-9]+$ ]] && (( window_count > 0 )); then
+    occupied["$name"]=1
+  fi
+done < <(jq -r '.[] | [.name, .windows] | @tsv' <<<"$workspaces_json")
+
+current_index=-1
+for index in "${!workspace_order[@]}"; do
+  if [[ ${workspace_order[$index]} == "$active_name" ]]; then
+    current_index=$index
+    break
+  fi
+done
+
+# Preserve Hyprland's normal behavior for an unrecognized/numeric workspace.
+if (( current_index < 0 )); then
+  if (( offset > 0 )); then
+    exec hyprctl dispatch 'hl.dsp.focus({ workspace = "e+1" })'
+  else
+    exec hyprctl dispatch 'hl.dsp.focus({ workspace = "e-1" })'
+  fi
+fi
+
+workspace_count=${#workspace_order[@]}
+for ((step = 1; step <= workspace_count; step++)); do
+  candidate_index=$(( (current_index + offset * step + workspace_count) % workspace_count ))
+  candidate=${workspace_order[$candidate_index]}
+  if [[ -n ${occupied[$candidate]:-} ]]; then
+    exec hyprctl dispatch "hl.dsp.focus({ workspace = \"name:$candidate\" })"
+  fi
+done
+
+# There are no occupied named workspaces to visit.
+exit 0
