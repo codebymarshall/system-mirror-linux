@@ -63,3 +63,7 @@ gh auth setup-git
 ```
 
 If either Logitech device was asleep during bootstrap, wake it and rerun `./linux/apply.sh`, followed by `./linux/doctor.sh`.
+
+## Global AI skills
+
+The shared [skills collection](../ai-skills/README.md) installs separately from Omarchy setup. From the repository root, run `python3 scripts/skills.py install --agent both` to copy personal skills into the current user's Codex and Claude Code directories. Use `--agent codex` for Codex alone. The installer requires Python 3.10 or newer and also works on other Linux distributions.
