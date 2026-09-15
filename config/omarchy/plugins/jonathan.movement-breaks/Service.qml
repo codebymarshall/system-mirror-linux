@@ -1,6 +1,7 @@
 import QtQuick
 import Quickshell.Io
 import Quickshell.Wayland
+import "TimerModel.js" as TimerModel
 
 Item {
   id: root
@@ -168,23 +169,19 @@ Item {
 
   function tick() {
     var now = Date.now()
-    var elapsed = Math.max(1, Math.floor((now - lastTickMs) / 1000))
-    lastTickMs = now
+    var next = TimerModel.advance(
+      timerRunning,
+      phase,
+      away,
+      remainingSeconds,
+      lastTickMs,
+      now
+    )
+    lastTickMs = next.lastTickMs
+    remainingSeconds = next.remainingSeconds
 
-    // The active-work interval measures computer use, so it pauses when the
-    // user is away. A movement break measures time away from the computer,
-    // so it must keep running while the user exercises.
-    if (!timerRunning || pausedForIdle) return
-
-    // A long gap means the machine suspended or the shell stalled. Do not
-    // count that time as active computer use.
-    if (elapsed > 10) return
-
-    remainingSeconds = Math.max(0, remainingSeconds - elapsed)
-    if (remainingSeconds > 0) return
-
-    if (phase === "work") beginMovementBreak()
-    else completeMovementBreak()
+    if (next.transition === "start-break") beginMovementBreak()
+    else if (next.transition === "finish-break") completeMovementBreak()
   }
 
   function sendNotification(title, body, urgency) {

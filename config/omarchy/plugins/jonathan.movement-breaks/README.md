@@ -10,7 +10,7 @@ A native Omarchy Shell plugin that keeps an evidence-based movement countdown in
 - The default preset is 30 active minutes followed by five movement minutes.
 - The only alternate is 50 active minutes followed by five movement minutes.
 - The active-work countdown pauses after three minutes without keyboard or pointer activity.
-- The five-minute movement-break countdown continues while you are away from the computer.
+- The five-minute movement-break countdown continues while you are away, including after the screensaver delays a timer tick.
 
 Movement prompts rotate through brisk walking, chair-assisted squats or sit-to-stands, wall or sturdy-desk push-ups, marching, calf raises, and gentle mobility. The bar turns urgent during the movement interval. Omarchy notifications and distinct alert sounds announce the beginning and end of each break. Audio follows the system output volume.
 

@@ -109,6 +109,7 @@ for file in \
   omarchy/plugins/jonathan.movement-breaks/manifest.json \
   omarchy/plugins/jonathan.movement-breaks/BarWidget.qml \
   omarchy/plugins/jonathan.movement-breaks/Service.qml \
+  omarchy/plugins/jonathan.movement-breaks/TimerModel.js \
   omarchy/plugins/jonathan.movement-breaks/README.md \
   omarchy/plugins/jonathan.workspaces/manifest.json \
   omarchy/plugins/jonathan.workspaces/Workspaces.qml \
