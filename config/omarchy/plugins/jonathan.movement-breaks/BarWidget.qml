@@ -231,7 +231,7 @@ BarWidget {
 
       Text {
         width: parent.width
-        text: "No custom times: only the fixed 30/5 and 50/5 presets. The countdown pauses after 3 minutes of computer inactivity. Stop or modify any movement that causes pain or dizziness."
+        text: "No custom times: only the fixed 30/5 and 50/5 presets. The active-work countdown pauses after 3 minutes of computer inactivity, while movement breaks keep counting. Stop or modify any movement that causes pain or dizziness."
         color: Qt.rgba(root.bar.foreground.r, root.bar.foreground.g, root.bar.foreground.b, 0.58)
         font.family: root.bar.fontFamily
         font.pixelSize: Style.font.caption

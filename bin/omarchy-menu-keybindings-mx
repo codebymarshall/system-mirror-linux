@@ -19,7 +19,7 @@ exec bash <(
     /^static_bindings\(\) \{/ {
       print
       print "  echo \",MX Mouse · Button below scroll wheel,Close application,lua,hl.dsp.window.close()\""
-      print "  echo \",MX Mouse · Gesture press,Application launcher,exec,omarchy-menu toggle apps\""
+      print "  echo \",MX Mouse · Gesture press,Toggle fullscreen,lua,hl.dsp.window.fullscreen({ mode = \\\"fullscreen\\\" })\""
       print "  echo \",MX Mouse · Gesture left,Move window left,lua,hl.dsp.window.swap({ direction = \\\"l\\\" })\""
       print "  echo \",MX Mouse · Gesture right,Move window right,lua,hl.dsp.window.swap({ direction = \\\"r\\\" })\""
       print "  echo \",MX Mouse · Gesture up,Toggle fullscreen,lua,hl.dsp.window.fullscreen({ mode = \\\"fullscreen\\\" })\""

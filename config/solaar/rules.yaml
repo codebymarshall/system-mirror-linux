@@ -7,7 +7,7 @@
 ---
 - Device: CCAF987C
 - MouseGesture: [Mouse Gesture Button]
-- Execute: [omarchy-menu, toggle, apps]
+- Execute: [hyprctl, dispatch, 'hl.dsp.window.fullscreen({ mode = "fullscreen" })']
 ...
 ---
 - Device: CCAF987C

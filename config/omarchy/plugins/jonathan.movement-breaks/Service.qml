@@ -62,16 +62,17 @@ Item {
     .replace(/^file:\/\//, "")
 
   readonly property bool away: idleMonitor.isIdle
+  readonly property bool pausedForIdle: phase === "work" && away
   readonly property var activePreset: presets[preset]
   readonly property string presetLabel: activePreset.label
   readonly property string presetSummary: activePreset.summary
-  readonly property string phaseLabel: away && timerRunning
+  readonly property string phaseLabel: pausedForIdle && timerRunning
     ? "Away — timer paused"
     : !timerRunning
       ? "Paused"
       : phase === "break" ? "Movement break" : "Active computer work"
   readonly property string countdown: formatDuration(remainingSeconds)
-  readonly property string barLabel: away && timerRunning ? "IDLE" : countdown
+  readonly property string barLabel: pausedForIdle && timerRunning ? "IDLE" : countdown
 
   function normalizePreset(value) {
     return value === "focus-50" ? "focus-50" : "health-30"
@@ -170,7 +171,10 @@ Item {
     var elapsed = Math.max(1, Math.floor((now - lastTickMs) / 1000))
     lastTickMs = now
 
-    if (!timerRunning || away) return
+    // The active-work interval measures computer use, so it pauses when the
+    // user is away. A movement break measures time away from the computer,
+    // so it must keep running while the user exercises.
+    if (!timerRunning || pausedForIdle) return
 
     // A long gap means the machine suspended or the shell stalled. Do not
     // count that time as active computer use.
@@ -237,9 +241,8 @@ Item {
     }
   }
 
-  // Three minutes matches this machine's existing screensaver threshold
-  // closely enough to avoid counting time after the user walks away, while
-  // not pausing during short reading or thinking pauses.
+  // Three minutes matches this machine's existing screensaver threshold.
+  // Idle time pauses active computer work but never an active movement break.
   IdleMonitor {
     id: idleMonitor
     enabled: root.timerRunning
