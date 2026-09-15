@@ -54,6 +54,10 @@
           "id": "agx.screen-time"
         },
         {
+          "id": "jonathan.movement-breaks",
+          "running": true
+        },
+        {
           "id": "omarchy.agents"
         },
         {
@@ -69,7 +73,8 @@
           "id": "omarchy.monitor"
         },
         {
-          "id": "omarchy.power"
+          "id": "omarchy.power",
+          "showPercentage": false
         }
       ]
     }

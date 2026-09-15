@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "jonathan.movement-breaks",
+  "name": "Movement Breaks",
+  "version": "1.0.0",
+  "author": "Jonathan",
+  "license": "MIT",
+  "description": "Evidence-based movement reminders with an active-work countdown in the Omarchy top bar.",
+  "keywords": [
+    "movement",
+    "timer",
+    "wellbeing",
+    "sedentary",
+    "ergonomics"
+  ],
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Movement Breaks",
+    "description": "Active-work countdown with fixed, evidence-based movement breaks",
+    "category": "Wellbeing",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "preset": "health-30",
+      "running": true
+    },
+    "schema": [
+      {
+        "key": "preset",
+        "type": "enum",
+        "label": "Break cadence",
+        "description": "Only evidence-based fixed choices are available.",
+        "options": [
+          "health-30",
+          "focus-50"
+        ],
+        "defaultValue": "health-30"
+      },
+      {
+        "key": "running",
+        "type": "boolean",
+        "label": "Timer running",
+        "description": "Start automatically when the Omarchy shell starts.",
+        "defaultValue": true
+      }
+    ]
+  }
+}

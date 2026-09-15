@@ -95,11 +95,20 @@ for file in \
   omarchy/shell.json \
   omarchy/themes/masseffect/colors.toml \
   omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
+  omarchy/plugins/jonathan.movement-breaks/manifest.json \
+  omarchy/plugins/jonathan.movement-breaks/BarWidget.qml \
+  omarchy/plugins/jonathan.movement-breaks/Service.qml \
+  omarchy/plugins/jonathan.movement-breaks/README.md \
   omarchy/plugins/jonathan.workspaces/manifest.json \
   omarchy/plugins/jonathan.workspaces/Workspaces.qml \
   Cursor/User/settings.json; do
   install_managed_file "$source_root/$file" "$config_root/$file" 0644 || true
 done
+
+install_managed_file \
+  "$source_root/omarchy/plugins/jonathan.movement-breaks/play-sound" \
+  "$config_root/omarchy/plugins/jonathan.movement-breaks/play-sound" \
+  0755 || true
 
 git_config="$config_root/git/config"
 managed_git_include="~/.config/git/system-mirror.config"

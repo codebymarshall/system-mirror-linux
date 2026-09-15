@@ -1,0 +1,1462 @@
+{
+  "format": 1,
+  "captured_at": "2026-09-14T03:06:38.904853+00:00",
+  "excluded": [
+    "*.pyc",
+    ".DS_Store",
+    ".git",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "venv"
+  ],
+  "skills": [
+    {
+      "source": "~/.agents/skills/code-review",
+      "path": "library/code-review",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "3abbdfe52540f9242e16589fae2cc423b3d98994c37683944462b29bab89495c",
+        "agents/openai.yaml": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe"
+      }
+    },
+    {
+      "source": "~/.agents/skills/codebase-design",
+      "path": "library/codebase-design",
+      "kind": "personal",
+      "files": {
+        "DEEPENING.md": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
+        "DESIGN-IT-TWICE.md": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
+        "SKILL.md": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+        "agents/openai.yaml": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+      }
+    },
+    {
+      "source": "~/.agents/skills/diagnosing-bugs",
+      "path": "library/diagnosing-bugs",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
+        "agents/openai.yaml": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+        "scripts/hitl-loop.template.sh": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+      }
+    },
+    {
+      "source": "~/.agents/skills/domain-modeling",
+      "path": "library/domain-modeling",
+      "kind": "personal",
+      "files": {
+        "ADR-FORMAT.md": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+        "CONTEXT-FORMAT.md": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+        "SKILL.md": "dd4c753a617bd7db97c34fd3e049581c4bc0c0590e8a8b1f97d3b9d6013131dc",
+        "agents/openai.yaml": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
+      }
+    },
+    {
+      "source": "~/.agents/skills/find-skills",
+      "path": "library/find-skills",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+      }
+    },
+    {
+      "source": "~/.agents/skills/grill-me",
+      "path": "library/grill-me",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+        "agents/openai.yaml": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+      }
+    },
+    {
+      "source": "~/.agents/skills/grill-with-docs",
+      "path": "library/grill-with-docs",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
+        "agents/openai.yaml": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+      }
+    },
+    {
+      "source": "~/.agents/skills/grilling",
+      "path": "library/grilling",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b",
+        "agents/openai.yaml": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
+      }
+    },
+    {
+      "source": "~/.agents/skills/handoff",
+      "path": "library/handoff",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
+        "agents/openai.yaml": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+      }
+    },
+    {
+      "source": "~/.agents/skills/implement",
+      "path": "library/implement",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
+        "agents/openai.yaml": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+      }
+    },
+    {
+      "source": "~/.agents/skills/improve-codebase-architecture",
+      "path": "library/improve-codebase-architecture",
+      "kind": "personal",
+      "files": {
+        "HTML-REPORT.md": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828",
+        "SKILL.md": "ab67dc77f7fb0e82ac2ce45e3680c4f90bd68f638c86522996cdf03426084ac7",
+        "agents/openai.yaml": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+      }
+    },
+    {
+      "source": "~/.agents/skills/prototype",
+      "path": "library/prototype",
+      "kind": "personal",
+      "files": {
+        "LOGIC.md": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
+        "SKILL.md": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
+        "UI.md": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
+        "agents/openai.yaml": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+      }
+    },
+    {
+      "source": "~/.agents/skills/research",
+      "path": "library/research",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "524b404b1ca373a8b00f63a64667ec4b0a61c3c9cf4e8f246e639be859bb6979",
+        "agents/openai.yaml": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+      }
+    },
+    {
+      "source": "~/.agents/skills/setup-matt-pocock-skills",
+      "path": "library/setup-matt-pocock-skills",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "86c0dee483fb69f7f5ecfcd010f6d7cbb30df2c47a9b059ac95f98380f383d86",
+        "domain.md": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+        "issue-tracker-github.md": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b",
+        "issue-tracker-gitlab.md": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab",
+        "issue-tracker-local.md": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021",
+        "triage-labels.md": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8",
+        "agents/openai.yaml": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2"
+      }
+    },
+    {
+      "source": "~/.agents/skills/tdd",
+      "path": "library/tdd",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "193b791c489d1640ccfb58d7cbd60fc9e059ef44632b3c92f208784cfe45ab78",
+        "mocking.md": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
+        "tests.md": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5",
+        "agents/openai.yaml": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac"
+      }
+    },
+    {
+      "source": "~/.agents/skills/teach",
+      "path": "library/teach",
+      "kind": "personal",
+      "files": {
+        "GLOSSARY-FORMAT.md": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341",
+        "LEARNING-RECORD-FORMAT.md": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05",
+        "MISSION-FORMAT.md": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a",
+        "RESOURCES-FORMAT.md": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5",
+        "SKILL.md": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04",
+        "agents/openai.yaml": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69"
+      }
+    },
+    {
+      "source": "~/.agents/skills/triage",
+      "path": "library/triage",
+      "kind": "personal",
+      "files": {
+        "AGENT-BRIEF.md": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
+        "OUT-OF-SCOPE.md": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
+        "SKILL.md": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
+        "agents/openai.yaml": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+      }
+    },
+    {
+      "source": "~/.agents/skills/wait-what",
+      "path": "library/wait-what",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "dcaa44ef972d5a3f9bda65a69442fb11e36eb41b7e9bb0dc8b63031ba0582fdb",
+        "agents/openai.yaml": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+      }
+    },
+    {
+      "source": "~/.agents/skills/wayfinder",
+      "path": "library/wayfinder",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
+        "agents/openai.yaml": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+      }
+    },
+    {
+      "source": "~/.agents/skills/wizard",
+      "path": "library/wizard",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
+        "template.sh": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3",
+        "agents/openai.yaml": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249"
+      }
+    },
+    {
+      "source": "~/.agents/skills/writing-for-agents",
+      "path": "library/writing-for-agents",
+      "kind": "personal",
+      "files": {
+        "SKILL-MECHANICS.md": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
+        "SKILL.md": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+        "agents/openai.yaml": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/imagegen",
+      "path": "archive/codex/.system/imagegen",
+      "kind": "host-dependent",
+      "files": {
+        "LICENSE.txt": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+        "SKILL.md": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+        "agents/openai.yaml": "1797be4076717806df54aa9331c07ac8eebe32c69f32132d5858712b05406146",
+        "assets/imagegen-small.svg": "087c1632a3b8a2ed4d6218952e7ba7ae2221a979f84233667ed2c587998784da",
+        "assets/imagegen.png": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+        "references/cli.md": "29dc8c1e3e5d9a20aee587fedb46a464552b6ec118d93bbd90c8d86e30502c8c",
+        "references/codex-network.md": "cba3b4d24d30f38adf8021b6e9b49ec5261a9e45e7df31047ec451c916c99b0a",
+        "references/image-api.md": "695909437b792aff171477dba127476a11235c220beb06533cce7c1495a042c8",
+        "references/prompting.md": "d957a45cb24fe2cf1a85858674fc533f15a5f4621355f559a13a93168999c2dd",
+        "references/sample-prompts.md": "76cc8a2988efb6e844a99ff9908b2b11cc07467510fc909002abcc0ee3f0701b",
+        "scripts/image_gen.py": "3666b807de3f0a1d0a4a767b886d612c0b8f71025c500bba6693d1c6995a0873",
+        "scripts/remove_chroma_key.py": "fa2989807052b857bed08f7fee0caa2502b54c46afc0a6f28cd706c25f636630"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/openai-docs",
+      "path": "archive/codex/.system/openai-docs",
+      "kind": "host-dependent",
+      "files": {
+        "LICENSE.txt": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+        "SKILL.md": "8ce8021101bcea594ff92ee6cfd8ca7641a49ee66d7bc6070555f1a33fc239d9",
+        "agents/openai.yaml": "0dd6c5ffa81a09782fd24cfa9fe1ec5c9633c90500b166ae18a462e613e876be",
+        "assets/openai-small.svg": "85ef0a2cde497872edec1525f1d538ccc42b33ff47acdbb88499a1631a4bdb21",
+        "assets/openai.png": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+        "references/codex-self-knowledge.md": "f945bf2a7cea6892d7a11ac38fb18b744fefd6d273654a8410c4c79e9f647fbe",
+        "references/latest-model.md": "c6908732acbf2c6732614d615856b5582964521a319da842cc9379f9822fbf34",
+        "references/mcp-diagnostics.md": "e9df2b2f8faa28930db4a2937cdb3665b4548ac958e80a8601a5dd0da1e6fad0",
+        "references/model-migration.md": "e2dc95fa96cf68c1e16f5bae265ae660bede705940602ba86ab6219c514a976d",
+        "references/model-selection.md": "ce020100a28004500c927abcd57cff154c5c360eb72d918ef7d72492e2484cce",
+        "references/official-docs.md": "b2301d72b8092be5f5727d8d1cbc75740887d836f4f13b469f40c1db16b39fe3",
+        "references/prompting-guide.md": "7e7cd7ff89f6211d1f881b8d394e92f416febe6eae2fdfd230c5b5c346bf8a93",
+        "references/upgrade-guide.md": "fada5e0c951a50e21c8ee9f51891159b539b651bfbdb92385fada4cbac93dab5",
+        "references/upgrading-to-gpt-6-astra.md": "cf4ebc3c89a5e2062e553626dcd27fab13f4870d3046c631ed91a0bc301bb32d",
+        "scripts/fetch-codex-manual.mjs": "1b9a36d3e59ddff3317d1faa182e5cd4967db14ff993593a5f98d5682dbffbe4",
+        "scripts/resolve-latest-model-info": "8f5006efa15c034ede29821b627d7b86c43f7dfaab422d335f45b9be8d04e2d5",
+        "scripts/resolve-latest-model-info.cjs": "91eb045abbf96ffb361e6ec2d3606540570fb32383edb22061f5549381ce0ee5"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/plugin-creator",
+      "path": "archive/codex/.system/plugin-creator",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "9dba03c079abfbc680e8fca146069f054c1b0c5e9bcb5e5a9effcf86a95f67c6",
+        "agents/openai.yaml": "693e1667acc879a7b966cf073fee6cf1f268974983c00b6b779dab031d79185e",
+        "assets/plugin-creator-small.svg": "edb19a0c59f9a1b5253b9af6d2f9f03cac27b2fe6a0275ebccbbdbff07891a1a",
+        "assets/plugin-creator.png": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+        "references/installing-and-updating.md": "476850a165cd63f8f3def5968b302c77e3cd5250af4df2dec1575a2eb4b51467",
+        "references/plugin-json-spec.md": "254f18eb2cf9390c0b85f0b885db3b1facf90e060257cde70b6e55e21797382e",
+        "scripts/create_basic_plugin.py": "a0dfca09c7ecc8f30012cb2111acfdf733eac7c5bd73e4edb154a45487de303f",
+        "scripts/identifier_validation.py": "680ce5b775ee5410ecf808fad40350dc4df2cc4a7003363f4c4c7f9d7c0be918",
+        "scripts/read_marketplace_name.py": "0be0d7e327688b70300baa4fff448a8e24f4c00ce71340f9c6299d21c333cc65",
+        "scripts/update_plugin_cachebuster.py": "d37acec7cfc34fb44db35bce437bf5ee8eb6da3484aece565e3a6e70e2bf121b",
+        "scripts/validate_plugin.py": "1e6cb914505b458856c2cfab7d18a224731c743ef47e0c9d78afe64f35b67f7c"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/review-agent",
+      "path": "archive/codex/.system/review-agent",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+        "agents/openai.yaml": "579774dde24f21ee57d5cb63f69c2fce0da04b81538c636a0e0dd37dc836c811"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/skill-creator",
+      "path": "archive/codex/.system/skill-creator",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+        "license.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "agents/openai.yaml": "b750627cdd588fdbb5b46e854d3384d1a504fad3b8ed73ca5d7ead3804df78b6",
+        "assets/skill-creator-small.svg": "edb19a0c59f9a1b5253b9af6d2f9f03cac27b2fe6a0275ebccbbdbff07891a1a",
+        "assets/skill-creator.png": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+        "references/openai_yaml.md": "7039d465b05342cbacf861f08d20192ab1eeee112bc5d8ff0fb66234756887a9",
+        "scripts/generate_openai_yaml.py": "30c73f1ea7d47dbab2b231bb92c5bf9026f1ad14ba8e3b3a4a544092c4d24ebe",
+        "scripts/init_skill.py": "74dfa9361a93bee6932d6cbb332ed19ac26a27ba3800e69fb07ba7512c1025f9",
+        "scripts/quick_validate.py": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806"
+      }
+    },
+    {
+      "source": "~/.codex/skills/.system/skill-installer",
+      "path": "archive/codex/.system/skill-installer",
+      "kind": "host-dependent",
+      "files": {
+        "LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "SKILL.md": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+        "agents/openai.yaml": "bd64b4d6893138706b3e3540f266ab809ccdcd08375652ae9f9d1e029fe50d02",
+        "assets/skill-installer-small.svg": "099e5a4b5e5f0f918a8de0d2059f0a86211da623dbb75f86f13dc9f7c08c778d",
+        "assets/skill-installer.png": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+        "scripts/github_utils.py": "2f9702afb9f0da740181fa4a3214f663e460f80cd5cea2e7dcaab00ad269082e",
+        "scripts/install-skill-from-github.py": "110cc7e4e395c2c9ba070d47db7d21be5164591c35015ae364fc9c9905b08de8",
+        "scripts/list-skills.py": "2cd6eecbaf9be7c86e80a14d7042f95d6abb83b6baee5f17dd075fa7a71c83de"
+      }
+    },
+    {
+      "source": "~/.codex/skills/unslop",
+      "path": "library/unslop",
+      "kind": "personal",
+      "files": {
+        "SKILL.md": "c6d2572294d933a428211921069e9a248490e9b466ca59437cb4d9de248600ca"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-bundled/computer-use/26.908.40834/skills/computer-use",
+      "path": "archive/codex-plugins/openai-bundled/computer-use/26.908.40834/skills/computer-use",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "8211e4b11a19a0dc4f0ace91096c74c5b36037ca4cb2c8988f0f535bb209e951"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-bundled/sites/0.1.70/skills/sites-building",
+      "path": "archive/codex-plugins/openai-bundled/sites/0.1.70/skills/sites-building",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "60e368f24021d5e6595f904e201b8a86dbd736bd797eee9001f0c9fcdcf314ac",
+        "references/authentication.md": "d2c254a7510810f33fd80be166237afdfb6e48c2093cb8390818bc6b52391a42",
+        "references/environment.md": "bfd3d37952ed03ba367073f6e9fb0f036b612bceba56f724ae58fd90e8cdded4",
+        "references/library-selection.md": "06487ead10f8dc66c43d37c55b795fc5041a152ec3a819b54c100036cab79d0b",
+        "references/persistence-and-storage.md": "3855a9f3b801b821139a02e1e93d9e39c1447558fc2ab820ac49e92136484ab7",
+        "references/sqlite.md": "5cea25c7007b9a31a8bac2ddda60eb4c78749ef826e3836fbd420cfce0aeb35e",
+        "references/webmcp.md": "9a2aa8f5095c982fb0125a9dc2e5ce07d55612260edf2cca46e39646d3fc4af8",
+        "templates/vinext-starter/.gitignore": "2e8e74afa606125e0cd6b711e6df0c5c764391b4c4d4bc52c6d25a92df0c7706",
+        "templates/vinext-starter/.npmrc": "7cd80af2e968119afd7b1803b6ac51b51ea010b8da57c3606ea1ef8071a86068",
+        "templates/vinext-starter/README.md": "c731e44da59622e6df68984195a77a82a097844dfa277bf83c32c4011317eec1",
+        "templates/vinext-starter/cloudflare-env.d.ts": "2ac980b29c91b8324a0d7864ec329c41e513fe81165aaffbc1220b8e85812759",
+        "templates/vinext-starter/components.json": "820e913f34219d16b5e7ec5865df9c444bb5b8acf230db4e589d660e4a21743e",
+        "templates/vinext-starter/drizzle.config.ts": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b",
+        "templates/vinext-starter/eslint.config.mjs": "8ca86af56c21d433c46bfebeb8980b64b6d4ffa0dc3cf3d2ec1ad923b983f38c",
+        "templates/vinext-starter/next.config.ts": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1",
+        "templates/vinext-starter/package-lock.json": "92c20a336b81eebe38f0479b009762053a9bb31beea479bed7aabe8b95b443bb",
+        "templates/vinext-starter/package.json": "47362543edc56e29b6873d5d116aea35faa0e28c650ec8531b7d8dd389d1b658",
+        "templates/vinext-starter/postcss.config.mjs": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+        "templates/vinext-starter/tsconfig.json": "755d473a6eb4f384deb37066c554995d9af3d3eb1e5b566ee7fbbf80a9dda208",
+        "templates/vinext-starter/vite.config.ts": "7c283af12e8cb19188c98d8571a0b68c3e5fee5a8e7749518754778dabd2a4cd",
+        "templates/vinext-starter/.openai/hosting.json": "d2841f8a91a91bab4f4a1e27671e7d3fe8f02261eb41996f43ac61e6970a9d74",
+        "templates/vinext-starter/app/chatgpt-auth.ts": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca",
+        "templates/vinext-starter/app/globals.css": "67c13a9dcaa8aaf07d6394945bfce04eef38301ac38f7d2f89bb00ad341b8067",
+        "templates/vinext-starter/app/layout.tsx": "e7af1c8e00ca8e3f8c46ecc476364f31371a4fff22de3033dc53073eb2786c76",
+        "templates/vinext-starter/app/page.tsx": "9c9ba6490744815f7a788dae756983c1b1684f33883a4a17b5218539214ad71a",
+        "templates/vinext-starter/build/sites-vite-plugin.LICENSE": "3dd119f149df88296e82981a51e5131b1018ba2e2f2f6f4bbec2b83d58a43a45",
+        "templates/vinext-starter/build/sites-vite-plugin.ts": "5b2d671313fe4ac10a1709e112d570da1267cb916f68655996a3ac3ea1dd80a9",
+        "templates/vinext-starter/components/ui/accordion.tsx": "810fded6b5f4f1d92370c8fa84b130cd9f26f1f37e30b1efcb48330338d91a70",
+        "templates/vinext-starter/components/ui/alert-dialog.tsx": "1ca7530a1f4727642aa96c619a320bc21488eb3bd6cf00666ef6fa3b1e346de0",
+        "templates/vinext-starter/components/ui/alert.tsx": "a36704ebac55c71e83302b1557d6bf188bb59552a46ea4e564acb4c913976926",
+        "templates/vinext-starter/components/ui/aspect-ratio.tsx": "cdcb1701d142b15ad09bd3982493b82c5eb17e6512b8d0719325e6e723850bbd",
+        "templates/vinext-starter/components/ui/attachment.tsx": "c79fd808704543da1df455bbbdbcac7031979e126bafeadd2d5c97513b426159",
+        "templates/vinext-starter/components/ui/avatar.tsx": "d37287410ad1f496bcbd788f94245542984e3a124008d9dc72f92afa0f96de27",
+        "templates/vinext-starter/components/ui/badge.tsx": "9f25d280c75ac367fb5bbeea5f2f0f0fe10be226e364678b065069ec62dfaa06",
+        "templates/vinext-starter/components/ui/breadcrumb.tsx": "1d179a7717f52c7aaceed5a305a4be38f3fc08c3aaf0f593de718ecb59b25ca1",
+        "templates/vinext-starter/components/ui/bubble.tsx": "df3ead10c41081e73ef64e60cbff3f4ad7740af9fd2c21784294dee1504cbbc1",
+        "templates/vinext-starter/components/ui/button-group.tsx": "90f87a3b4398540a58d8fb05559df0939d8073a7550a8af646d86c97145dd00e",
+        "templates/vinext-starter/components/ui/button.tsx": "38447e736fdb7524f96f4adb6eada4ff9e4e68cf9eeb2415c357544ff347e8a3",
+        "templates/vinext-starter/components/ui/calendar.tsx": "0349754fe228253ae94ba9f641d903fdb5917b502bef2087f8f5c6b0a93326ba",
+        "templates/vinext-starter/components/ui/card.tsx": "d213fee777a9c38c3276b0e6b14707987302b83308baf4656dc1d5ae0610053f",
+        "templates/vinext-starter/components/ui/carousel.tsx": "45c8d7786dcbc4e08ed3506fb8946f1c8abf1fa720b228792fe8430a56f3da6a",
+        "templates/vinext-starter/components/ui/chart.tsx": "f60244582b56d42fb6631f9ac7026f3ea421d8cc31bfdda0e7727cae2a064687",
+        "templates/vinext-starter/components/ui/checkbox.tsx": "afcdd47885bdfa92997ef8da0fe231ae19b728594f7448eb437f7d7e94fc5b4f",
+        "templates/vinext-starter/components/ui/collapsible.tsx": "c3649a69d53668fcceba2d83c97a3146fc2930a00c30fe281875238384e7bff2",
+        "templates/vinext-starter/components/ui/combobox.tsx": "63f37425ab8eac82374dcb9d7ac4fec1406ffabd1c64006c59800f295fd43f6c",
+        "templates/vinext-starter/components/ui/command.tsx": "67bc4de1f69b46c405ea1209a40a9b08a2e301aa8d36d3c54ce1b05c3039eb6e",
+        "templates/vinext-starter/components/ui/context-menu.tsx": "0e0f98b6cf175912c541330f3b492476f8fa2712f13f265e8779ad0b93437d16",
+        "templates/vinext-starter/components/ui/dialog.tsx": "7ba15f4c9dd993977d4d3dc70aef92d3e95548a32e5edc6f268c44921bbc15e8",
+        "templates/vinext-starter/components/ui/direction.tsx": "cd2c00d9757eea6dcf3242d71de8f397d29291a67fba5c39fb03c4c60746f36c",
+        "templates/vinext-starter/components/ui/drawer.tsx": "9c21e1c99e256689192ab009f461568ea9ea99137b3b0e3010f56b7ee2bbd444",
+        "templates/vinext-starter/components/ui/dropdown-menu.tsx": "fe670b2a67ac46915410a17cd5e4d529be2424c1b0fd8b8f41c178ac53ff6c3b",
+        "templates/vinext-starter/components/ui/empty.tsx": "1523589e7664f743fc6cddf7daa7b7c030fbac6c5613a80f79478562277eda56",
+        "templates/vinext-starter/components/ui/field.tsx": "ae5a1b6af5009609b3855acea85cf6cee9dd2698304d61995df458145319be53",
+        "templates/vinext-starter/components/ui/form.tsx": "27d0cc0e59d9102f5287e857a5bf489e9cdd66f4d53cbfac8d0d967c7f2835b7",
+        "templates/vinext-starter/components/ui/hover-card.tsx": "ce70a075f5422d9055eff971f1214b820806637d9fbce235df83206d1448cdb3",
+        "templates/vinext-starter/components/ui/input-group.tsx": "dd5a0fc5dd10d7a829041ca19a3b8f040758761f657783dbae632c851ad10044",
+        "templates/vinext-starter/components/ui/input-otp.tsx": "aa8d62769d9e9a0bf40aec5aa427a3a34be5852a6f61b390aa7aa5fa50ab3b46",
+        "templates/vinext-starter/components/ui/input.tsx": "44714284bdbafbf7634a4807eff5d6b493b5b5fc1a562a269a874de1eb50ea7c",
+        "templates/vinext-starter/components/ui/item.tsx": "9ff8e5411d0684cb97a717c8c3498e6c11d56c21ce84dbcd6ba15f5167b1038b",
+        "templates/vinext-starter/components/ui/kbd.tsx": "087e34753566167ad99b8c69c6c0a3cfeaabf0d2a579e739ec1dd8d66910da1f",
+        "templates/vinext-starter/components/ui/label.tsx": "43e7cadacf1e0d71c1668dc388271656d2db8c4d45f2144d52d594f9aca31ca5",
+        "templates/vinext-starter/components/ui/marker.tsx": "d94da269dd74ff4410393c57bd57bf965808314ce7cd5710e795a33f8b62240e",
+        "templates/vinext-starter/components/ui/menubar.tsx": "1625b156556efa470d6a767596eb3237ece71fb5a799040f6921a367b1e26bc7",
+        "templates/vinext-starter/components/ui/message-scroller.tsx": "abb2e962ef1d6952bb1caee7a135b079fedbd3833a1b871cd9079c880bbc0ffa",
+        "templates/vinext-starter/components/ui/message.tsx": "a4a7f8a104559536a531e198d1a7a239cdd55748da74a0a3e2088f275e153287",
+        "templates/vinext-starter/components/ui/native-select.tsx": "d62b4479c6419a37ee748b1a6536c51d6676a3a04afdea27619e6481b6cdb442",
+        "templates/vinext-starter/components/ui/navigation-menu.tsx": "a42f6e39ce4b18d0cadfe91265b9419ddd8b157a9778a5ed754f45e72a902252",
+        "templates/vinext-starter/components/ui/pagination.tsx": "9d9ba519da639b1993b7df95e8b0d394e8dc2c61fda7320c05ec1c5332ae56fb",
+        "templates/vinext-starter/components/ui/popover.tsx": "2520e46424ba0ce4407c83c47cb717e1a5e7e51c26449b1eabeaeab779c05e76",
+        "templates/vinext-starter/components/ui/progress.tsx": "c6f42ff7f284ce9e965b1bad059dd401a951d6254e5070877b129ff8195c7707",
+        "templates/vinext-starter/components/ui/radio-group.tsx": "45af968f5e426f9268a6623ccc55d67f1a0973742dd01f12917f981690d13a68",
+        "templates/vinext-starter/components/ui/resizable.tsx": "bfb26b64a3c1d6e0a71bebe06738f209724588deb8ff3048a10f130ca920828a",
+        "templates/vinext-starter/components/ui/scroll-area.tsx": "509e700a8f6a26386a0e61dcacc3f6b4fe42fa31c5444a2b27d9952e772b80fd",
+        "templates/vinext-starter/components/ui/select.tsx": "f4434ef49e240b581e951cee362cb57e11e8a9bbbe4238395a034ba599ce298c",
+        "templates/vinext-starter/components/ui/separator.tsx": "8cdd3c705eb6b04bbe8fbe87cc5f193de72b17d85f02020f7e4e9bd206c50f59",
+        "templates/vinext-starter/components/ui/sheet.tsx": "57d5e84b5b1ac6d1769dc53632b52236096140df8f3a4a10e8343bd73d186290",
+        "templates/vinext-starter/components/ui/sidebar.tsx": "74ecebd633481b76e425e8b40c9cdad7e43c2872cd699d8a56690e889da9620b",
+        "templates/vinext-starter/components/ui/skeleton.tsx": "85957151311e53eb49bdb54f5e2e6d8ff4461b14d887d8073e0cde846d539691",
+        "templates/vinext-starter/components/ui/slider.tsx": "deb4c937a6036d33236c8defcb6df42ba5886fef32dc1d67763eecfebcff5b69",
+        "templates/vinext-starter/components/ui/sonner.tsx": "f4d2c855754828ceed89ad6455aa8082f80566d82c3ab79b8db5271c5102b632",
+        "templates/vinext-starter/components/ui/spinner.tsx": "cbf9073613aed22ffd4ba21219adc1d1b8dce311d4280800f772b5eae587eeff",
+        "templates/vinext-starter/components/ui/switch.tsx": "21126011e315385b26ba57c494fa18553ac81f85f5814c3c9a79ff864ae66ee5",
+        "templates/vinext-starter/components/ui/table.tsx": "02d16a0d04c4fd2990ef41d9c5963335aa0eec93d41518e18476656113894626",
+        "templates/vinext-starter/components/ui/tabs.tsx": "3a200c6fa6d683681f066f1e9b3868ef22d3cf9d3d925d7364edae9900484aa3",
+        "templates/vinext-starter/components/ui/textarea.tsx": "d5084a2bc607d9e2322e440d36643610478982bc4ecd4ddf5ee2b805418e1198",
+        "templates/vinext-starter/components/ui/toggle-group.tsx": "cf2efaaad5b80f1df4636a3e730fe0bfc25e55674fa37414c2f8f1ba02c20708",
+        "templates/vinext-starter/components/ui/toggle.tsx": "961640a6cfdfd1cdfbc2196f6d4b8bc7a0606347769bc0d0d929bd50b6d86140",
+        "templates/vinext-starter/components/ui/tooltip.tsx": "2ed212576e61f83f86a4ea00d40751181e5889b2bf8d660eede5d0adee46cb76",
+        "templates/vinext-starter/db/index.ts": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4",
+        "templates/vinext-starter/db/schema.ts": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f",
+        "templates/vinext-starter/drizzle/meta/_journal.json": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a",
+        "templates/vinext-starter/examples/d1/app/api/notes/route.ts": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45",
+        "templates/vinext-starter/examples/d1/db/schema.ts": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3",
+        "templates/vinext-starter/hooks/use-mobile.ts": "d2377fbad5ad2bdf7fa896a68c36ac8bf4aa74a974b2061f77b41ae58d623001",
+        "templates/vinext-starter/lib/utils.ts": "c2aa0cde88a8b5b5db7718003da1a345bdcce5f31085800b66ff0dddedfb0254",
+        "templates/vinext-starter/public/favicon.svg": "3e8863288c2d43dd33d2a71de317dcf9198f09932ea8d61e0def1b846a865435",
+        "templates/vinext-starter/public/file.svg": "81a9ce5ca9bc60870c1d72c0fd5b98b2bc5c8c02b0e04fefeab9efcc11277228",
+        "templates/vinext-starter/public/globe.svg": "13187c071b4d369df3a7a179f69a927165bf624e1a524ee6c93b7d3be75d6fc8",
+        "templates/vinext-starter/public/window.svg": "d3cd4bf0c1123258fcc266409856e28c93d4fc1cf8476702225e17842900ca63",
+        "templates/vinext-starter/scripts/build-verified.sh": "61024a70b28a732585428398f58ca96331b6850642683bf4a35297974a0125f4",
+        "templates/vinext-starter/scripts/execution-profile.mjs": "2581f6f47a0903d0d6cb3b26def05fae88026a7ae8c88f5d7dabe5dbcbd6ee32",
+        "templates/vinext-starter/scripts/install-ci.mjs": "7b211ba1d60beb4c899ac491f9de050b5dc4355ae1ffddebfb9794597125567d",
+        "templates/vinext-starter/scripts/install-ci.sh": "eaa523c4b122c899e480be110279d4c923d140fdee8a9be889ab46ad67ca626a",
+        "templates/vinext-starter/scripts/install-pnpm.sh": "12bd15153e633c754466f05e33bde95284633d0563d469dbb2a1f5395a325dbc",
+        "templates/vinext-starter/scripts/pnpm-install.mjs": "7b15309afcbaa600da802f1e4449b7ad13a511e56ac3a99231583f086db6d43b",
+        "templates/vinext-starter/scripts/run-framework.mjs": "72075798db6191995dee4e15ba5e0a5b0c23060ff0be4acc5be085062b27fcff",
+        "templates/vinext-starter/scripts/sites-env.mjs": "4cb12e49c5eec402d920cd98d74ebc3267c9a38b0f63445a619d4271979dd774",
+        "templates/vinext-starter/scripts/sites-env.sh": "29bc00ff806de5fe25039b869e32e9a458e273555b139a09b4f9c1ed8f59df73",
+        "templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.LICENSE.md": "a14c2d6fb5ba9925cba04633226a3b93e6c5566ca6b550dbfaead7ab3fa93b24",
+        "templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.css": "f221d959e80b4738fba93b4b4f01472b11cccaf6043ba7f6f9376f6768dad28e"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-bundled/sites/0.1.70/skills/sites-hosting",
+      "path": "archive/codex-plugins/openai-bundled/sites/0.1.70/skills/sites-hosting",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "5d5afc274e1269994b6682ed5bc0ee66d7b348b173472dba9c300ab6b1f09dba",
+        "references/environment.md": "0fc8f43a9833a19bdac5d34f79fc1cb4797a14e8fe039c46968bed838ff20df1",
+        "scripts/package-site.sh": "55eec0f16306358d96ad19debad9cdf70f7ccc632a2d6aa55130f1848646e1de",
+        "scripts/prepare-site-build.cjs": "3c11ed615535b971ede43ac3295fc23262d66b5594559d8308e8f88fd190d012"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-bundled/visualize/1.0.37/skills/visualize",
+      "path": "archive/codex-plugins/openai-bundled/visualize/1.0.37/skills/visualize",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "c784e4ef363147fca4354a0865670d024ba5402aef84946a33b9851207d54e89",
+        "tweak.md": "d5685421b1455f4c1b0cfb8c438e200c9c23c6574cfc47805f3fb4d00875bb41",
+        "agents/openai.yaml": "6882440afd1978a5324ea7adc5c3c62ed1efa11caabd1b97f58e8be721e89c2f",
+        "assets/visualize.css": "876940a798cd9000e9077c0d8a549aa8bcc087237745833eb01e60f147ac25ca",
+        "assets/visualize.html": "8bdf02b3fe259f7534c3d6363d6397629dc3a40beaa7ce2ddca7de58cce7b269",
+        "scripts/render.py": "24c47ab4b0814b9d5c3760e6dc5ab005e6742e517dcdf633f005f664b38b65b4"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-brand-check",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-brand-check",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "b292189744392db22b9e72481056a0db94781bd64892480abe2ce50c76efbb73"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-branded-presentation",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-branded-presentation",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "cb941d4892cfeda9034f77cccaf1e1d8c45546bd3a41c5c85e72e37055150ca1"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-bulk-create",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-bulk-create",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "65deda62b60ce9e748c7a90b3e41e91dadc38f6deee3ba4aca799fd7502eb8b4"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-design-feedback",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-design-feedback",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "e18303be61308ad6dc8e05c4735b7254873f42ab9c6bc6c37b9cec339119be7b"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-edit-design",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-edit-design",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "842eeec8f89bfcfb3490ca92092f4ef441577ff7f9b7bae979aad99cc92ceaa8"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-implement-feedback",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-implement-feedback",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "cb0d8a7434e7abd7a129ef74aa526ea7f5c0c7ea89db17e3a0ebf27d6108aa36"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-resize-for-social-media",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-resize-for-social-media",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "bb36807630daf3ba7c2a27e83de64b329e03ce68457da874c36c5022ceff7094"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/canva/15.0.0/skills/canva-translate-design",
+      "path": "archive/codex-plugins/openai-curated-remote/canva/15.0.0/skills/canva-translate-design",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "c10b609033f5727c53d3c05dddd61c4e3d0de9a314b78420b2109dc6629192eb"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/deep-research-work/0.1.15/skills/deep-research",
+      "path": "archive/codex-plugins/openai-curated-remote/deep-research-work/0.1.15/skills/deep-research",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "fe92f226b47314a3963738a7b98d5afc5d51973c7b589c72277e3cc9e59d44eb",
+        "agents/openai.yaml": "397a75460a55d81149dbba7b51a4c5f2f52abb1df0c5d1e0362aca35133c3b84"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-code-connect",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-code-connect",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "87af3996edb167d6aa3c044cb1bbb6a0d8e2d631c731bb896b1e1e8669640415",
+        "references/advanced-patterns.md": "ac2cb232aca4e43b75169f47f5550d6e7e48a8df0eb55aa1adbfb1a2ab0aa1b4",
+        "references/api.md": "40c1dcae2db387fb93ffbf4eba8ae81362e204bdfa5be7018f743b8ac24d4252"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-create-new-file",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-create-new-file",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "82e0a018692d3d009b5d2c83ecce9203a4ce7dfbdb98b7b13a4f7e5b11832bc2"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-design-to-code",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-design-to-code",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "936bbe68b4731d4a8748db15f85247efde232c8ae0902857c2c79a9ed40649ea"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-generate-design",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-generate-design",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "4585464c09bed50215151e468ab8476848adcf56da017811ddcbfff199ee0b56",
+        "references/componentization.md": "20cb544a638c12723f653eda19de274cc713292a51c311e76cb9010271f666d7",
+        "references/discover-product-font.md": "87858089c77f71d478d0233b89498e3589ff14556b0cd503f6a3faf5941f643a"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-generate-diagram",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-generate-diagram",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "7297638dbf2130d1b37bfd85df65d290a4dd0b11a11b54abafcf7d07565922b5",
+        "references/architecture.md": "a7c26be020e5736a6df3c069b01b54f11b647f486d6acce063ed0d133a25a7b5",
+        "references/erd.md": "a71270515061f0dfe7b4a934422796706d472feaead68bc010fcbfe2ad42cecf",
+        "references/flowchart.md": "88f2e7f98ffcc98cf8312066ad52195f865670390cbea01522002879d763cdac",
+        "references/gantt.md": "2dc379c99eaa1bf72310be28505aab75f587c5f614bdfa43e0427c2cc97f2a0f",
+        "references/sequence.md": "23d7d67a4ea4e19dc843ae80aa5920b1f6174cbcfb137f4b18eda401c8df6dd6",
+        "references/state.md": "8b66ae6d74eb71df77e69ab55f184253d4311d7cfc0a85bc3dc81b65b1eda31b",
+        "references/workflow.md": "f9b9c56ec14e5bc031a8f8561a855236a2563a17b26559031ba309693357dafb"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-generate-library",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-generate-library",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "3c995d483bbf4761392ba0c2e00df2b1b1c632cc05c6e7df57a2e89c311f53b7",
+        "references/code-connect-setup.md": "6662c3f0d68e9b81bc2e8d766a40fc526a055b4c2acfaab36947a56c38f660fe",
+        "references/component-creation.md": "abfeadf4f49a12a6efb7b62b7855e22c42eae041cce8b3fa07090480dfe6ae7d",
+        "references/discovery-phase.md": "c92aa153e44d05bc301ae89f19a8921a5c2347ba8a4ae2f20b3a7b7b673a50d7",
+        "references/documentation-creation.md": "16559b87b5922d249611087e3063f0e64c7b593e34d353f63979630f0bb5c932",
+        "references/error-recovery.md": "9a9d9a31c7a22be4c714fc9fed24070ec6ded3172abf3c9f29a4b484e5d43999",
+        "references/naming-conventions.md": "16810f87eab00ea93644035dca95e2d927b266b9fcbf5460c1712dab30638442",
+        "references/token-creation.md": "123f2a95d6dffc6356eba036f188cf9034932e67a0ce7000abbf1d6ddb1bbb84",
+        "scripts/bindVariablesToComponent.js": "f6492ad075b38bab0ae9a7a0dfb60c58e23a4258f67261f1b166098df58f115c",
+        "scripts/cleanupOrphans.js": "525583dc4a560cfd7f725685140210e649dd1c73c7fd076a5ce03fe9e17fddaa",
+        "scripts/createComponentWithVariants.js": "3a97251335e4bb5dd833acdd86c1a158d1e4ad2b6780587f1bc453d88aa53d31",
+        "scripts/createDocumentationPage.js": "28cb9b86c2c26ed91b3fdb688d18e07928c7abc073e1b72dd6c0f0995225381d",
+        "scripts/createSemanticTokens.js": "11d1e3c4b28e0408c9e7602719a8ec4675a6c24bd3033614855d90ad70e75ce2",
+        "scripts/createVariableCollection.js": "7fed413cd2d09acdb80e9a92e20a9afd581aeba4d4754d605862926df8b146d0",
+        "scripts/inspectFileStructure.js": "d4c73a074cfef2bfe6dc31998b3e9fb4861bfd4e0ae61bcda6165ab05c9f3118",
+        "scripts/validateCreation.js": "dae970b4d80c4d0994f14c89ad01c04115604444b916a0b8fc342ed262fdfa97"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-implement-motion",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-implement-motion",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "2e26e67284d47c6a74aedf9dca7543f4c8817dafc59a11abb156d4f7feedb2c2",
+        "references/examples-and-anti-examples.md": "879c7d77e48573f863b7b52be04c56b1e6c0a9cd5e236274699e86b50ffd3a72",
+        "references/framework-recommendations.md": "985fc9a7a390d9c7389b0191a2660ed12da8af3508ae1ba613323cca3fe19c18",
+        "references/gotchas.md": "f970e4ab6ecb6e99ad27de6a770ddbbe1a799d9effd6b41f1e85bbd821675876",
+        "references/motion-lint-rules.md": "017029d2c0872a6316b5b1594adc97062bab3f7efb1ca340f00fa6cd265f6316",
+        "references/svg-and-path-motion.md": "a283d0a875e94edc30d8021b6f8b47cd26547c770f53420ac3f56df0966054ad",
+        "references/unsupported-and-fallbacks.md": "e12c6985e5fd88d37a5cc7cf219fd738a5102debd4e9f0943515900cf8c62000"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-swiftui",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-swiftui",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "868c4defe2c0854f5a3e27594d3fa0f20347c86a9b15d103483b7488bfa8affe",
+        "references/code-to-design.md": "ecbef130da18583465a57236dcf422a8287cf6b242b9fd9392d13acf57c50807",
+        "references/design-to-code.md": "4a1224ad17dd59ca540ed8c020c7fcfb28743407e91724b0eea585726f0847c0"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-use",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "7de62bb574c7acf3241643e0aafcea13e48ff06a12ef5203447eda3584e6ff4f",
+        "references/api-reference.md": "04dcdf745a91963d19b66d6839f26d51ccafa04478e9f1ea8ed0d0b2dc08e97b",
+        "references/common-patterns.md": "0a7baa19a250964ddb8dd4716f9b70fc894c6e265947684486f3d2b4ff47eb2d",
+        "references/component-patterns.md": "e7c826c718e94356ded58c3be99264d114a2ccfc54851624075c4c1a3e1f04fc",
+        "references/effect-style-patterns.md": "9f960df3fcec1c0601e57db2f6506dde0ab524baeb462b01fb4f745972ffb2e7",
+        "references/gotchas.md": "82c1044e28647116459b7d7510facb9ff7eef2dc3d64d12e40f7808c2bb484af",
+        "references/plugin-api-patterns.md": "654026ebf2935958a7464a0d6c4ae4bd42668e1ddb43b4f29b7cb2652070768e",
+        "references/plugin-api-standalone.d.ts": "c1daccb23452281f75a02ac7f80e25348c8a80bbfd047a3d42e5cd4458134e0e",
+        "references/plugin-api-standalone.index.md": "cb01a403ff1acb5d7bb825135be6a3e427b782ccb4d2fe3baaa031790217742e",
+        "references/text-style-patterns.md": "0428e4cedfaf1336d544566a38c4ab6064f3ccdba014f21a4a0d450fba13077c",
+        "references/validation-and-recovery.md": "c917194630d37e62a2946c8a041765f7066654a7a50c907f293de7d1dec7399e",
+        "references/variable-patterns.md": "3e2a8ca142261b584576367716b963ce79ca55214265b17fe87a86fc5ac50f8a",
+        "references/working-with-design-systems/wwds-components--creating.md": "f383ea109e48c335c5855a8c7be15402e0ba72d5313c34cde6cebf550a6443ff",
+        "references/working-with-design-systems/wwds-components--using.md": "ffaf10a09ca7f773aa5a3f08397fdc18dc35f7c2ee9c1db1d917927056bc39f6",
+        "references/working-with-design-systems/wwds-components.md": "a8f996f4cf0c3520d8c11639866dbc740bcad802a4f42453520c32412b53f825",
+        "references/working-with-design-systems/wwds-effect-styles.md": "d0b9b409fda5e22a9095420c606224a2c9b166abbeda6e8b284a820b6d9d7907",
+        "references/working-with-design-systems/wwds-text-styles.md": "0e3a259a2f2c3280bedac02e40b3a901d08e8c4cde45a90b4ca367da5c3ee40e",
+        "references/working-with-design-systems/wwds-variables--creating.md": "3a2f9796aac9d419705ca02b9fab29a46282f0921c4c0a01704cec7e43d8ccf2",
+        "references/working-with-design-systems/wwds-variables--using.md": "3a328d9f2a176a4086ee7c3e14ca83ee730f4d44b5c1b2276247481fdab6a5e7",
+        "references/working-with-design-systems/wwds-variables.md": "0d1d8145ce892ff782500581af3e368cbb6b41ac34e922429de0e05ef182174e",
+        "references/working-with-design-systems/wwds.md": "e514da78a7eed6a55c95d6b52a600bd38252bb28ad1dde689a7c72f30c99a9f8"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use-figjam",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-use-figjam",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "16b15da304f777e6bdc79bf425da73fa1ce0ea41af726cab8ddd6f40180acd74",
+        "references/batch-modify.md": "35f5067406699a7d91cbcb51c567dfec37f46ccd856dc0a00db6d1bb97386323",
+        "references/create-code-block.md": "a7e4dbf31d8f0310dc5d1aa56de24ca66de34cb95031c60fbe6cf9d8b7ce878e",
+        "references/create-connector.md": "5b64b05a50bcdf0831d9f56b64dfa5398e12dbac21cb97137aaf2b875749f87a",
+        "references/create-label.md": "aa682240fb4713617975d3d7af90419ae09363d75c834aba17fdf798c582ed07",
+        "references/create-section.md": "49ce969c599204190e7cb54c93b96447ba74d855b92b7d64a39dc7295540ec74",
+        "references/create-shape-with-text.md": "bd92fd1a406babdceff480a6dbce459bd8397d31c3a56710bd6f3806876b03f8",
+        "references/create-sticky.md": "8e3afc40db5aba563a228e3488f76db9840bf3a50d836980e1c722a9e3334f2b",
+        "references/create-table.md": "71877bd8a987d893f5352d6bc202cd155705193faf4efd49a5ff7f7aea49eb48",
+        "references/create-text.md": "2cfdd1329d913b227d2cdc33e20c92276e95b23f3b731e44600ddb30007988ee",
+        "references/edit-text.md": "598198a416d7413cfadfbc6e758c0e741adcb3b7d9f234498bce0178649bcb93",
+        "references/figjam-colors.md": "4610c00dd720309656c484fcf37612b56249cf800fe6d8dcb3f4cc65a112037e",
+        "references/plan-board-content.md": "1a951719d4a8934da2c0324298c0982b4612dfe788ba1f0237c94d715f139925",
+        "references/position-figjam-nodes.md": "5355af8a1bf7711f065c667251b9290959d63a831bef9a096b40f8d276053023"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use-motion",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-use-motion",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "d74fa8c9435a5260f8a61e3a8fbf11c068f940ae3423e9be2efde8b5e785d78c",
+        "references/motion-easing.md": "bb687254ab222747d385e1604ead72a439a444dec8aa0a51ef8a2189a9f45637",
+        "references/motion-patterns.md": "429a4be590898acd025dffa18c9ce2b9a2bd1a7c6a065d96cec7f55eb86762f1"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use-slides",
+      "path": "archive/codex-plugins/openai-curated-remote/figma/2.0.21/skills/figma-use-slides",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "0a69a65e686dcc223581afb409a4d31cf318716e2c65cc9c926839a8737e71a4",
+        "references/slide-content.md": "a840a18d91cb878633129e6629d022ed797be018bcbdbf6099a00f7ba9a0cf4e",
+        "references/slide-design.md": "6d8e56017ef49ee9f66332e6f6093b8fabac8dabd68e81101512e11751820224",
+        "references/slide-gotchas.md": "8d28df88e7aee9ab5895835932b54a5a70998d896ff7dc7f3aef1edb7ddd1bdc",
+        "references/slide-grid.md": "982f6c1ce3b3e487817273c5840e0121fd1abf61f42e37a6bf9b06d9fe924d48",
+        "references/slide-lifecycle.md": "880e80bd9a4ed0ff30648ac609cf0337c167706613f438333289fce5164cd1cb",
+        "references/slide-properties.md": "2ffaf7a63c95f3a97ef50e33f8d8af77e66c922f92116022a9963261018654b5"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/skills/google-docs",
+      "path": "archive/codex-plugins/openai-curated-remote/google-drive/0.1.16/skills/google-docs",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "8e5c26053d800e2980b74ab82c2ce95db94a17fbb443f8f6e30baeb442f1d464",
+        "agents/openai.yaml": "83ace90f66faceb0f66152b3f906b8f7b9b9a657093c39c4a28d3dca5ddcc25a",
+        "assets/google-docs-small.svg": "2a61baaef537798f02530bed0c41dc0b6fbf964134563f2811d1e0c6dec8304c",
+        "assets/google-docs.png": "b416735b10fb7bc27fe80f72007ef957486d7c29ae603083e137ca689d6920d5",
+        "host/docs-dropdown-executor.mjs": "97f002cca96055fc8ec5f1c032a89a2966ba2a0f96ca51567cf450ca66163b4a",
+        "host/docs-dropdown-file-bridge.mjs": "47cd11ae7872bf7cda18cd5e78e7229ba6485045585838c93b9265117f38b878",
+        "host/docs-stdin-receiver.pl": "a31a4a530ad61538385ce28d87d2be5c44810095df4de1ac6eed84628c492dd4",
+        "host/docs-trusted-read-file-bridge.mjs": "8ee2b99c05d1adcdd4a4ab71c4f904dbf4bead9cd1c4daab2dd2644b37c3fbd4",
+        "host/docs-trusted-read-wrapper.mjs": "c7c1affe5fd3e37924f005c27aa0d6ffbc10e1d2d7ca8fb55d8f38f288ca2ead",
+        "references/reference-citations-and-hyperlinks.md": "176945bec5f7b5875e3d096ed2a71947b4fc51779b65cb6018337e813c25b6af",
+        "references/reference-connector-runtime-and-safety.md": "c77ab1262be6f74edc6c521a5079de422566c9ce4d776957ea04e820c30d414a",
+        "references/reference-direct-request-composition.md": "f4a5b9fe0be81930c982f9fa28d6cb6ed0c421d116cdd42da52f3586a339d2f8",
+        "references/reference-dropdown-code-mode.md": "a5ceb032e30d966a62c34a7ee0a00f96ae2f3243e6fd11eb281794dfaa1c0397",
+        "references/reference-figures-and-image-insertion.md": "079525400ca9a709dc78ca32edbec73ca50c1aa1858ac62082fdbd7fd1f4c3fc",
+        "references/reference-foreground-guard.md": "29311ede3744c97db5ca87ec36b991a12e785dde84d8dbdcbdc9b983cf9d614c",
+        "references/reference-headings-and-question-format.md": "970f1ca6c30e7db8cbb7afb74e7515ad79a12dfc5fc5acd18ad673dca8941ab7",
+        "references/reference-import-docx-to-native-docs.md": "75d396905976cbc38c162317d29ad76b4e1ca88a0695b993002beaf9a0553274",
+        "references/reference-meeting-notes-direct.md": "aafb77df09868005862ea81af6734c8a6e28d25c92deba77fe524b3f0b656384",
+        "references/reference-native-create-direct.md": "458f26ffc83cd168c2e38fd3216d47dcf817018596d69e7af80ba37efc7c4068",
+        "references/reference-pdf-export-visual-qa.md": "29bf6c64e1cd15ad0ea16d7d20297e0eed9d522575e5b3cf5d4a7f1fe507144c",
+        "references/reference-request-shapes-and-write-safety.md": "f31053a6bdb33fa43aa718785c9ee7bfe33cd3bdd647ef8007bc4da75c53b712",
+        "references/reference-response-and-list-format.md": "d3696ea316bd2cf90ec32060a1f5f00f26d2420aacb91b91654d0552bf2cd723",
+        "references/reference-section-completeness-and-final-pass.md": "9629e4e744e51b355d9f3ea738d66831b9c4de2b690ca621ef0ee118c6f6bcfc",
+        "references/reference-smart-chips-and-building-blocks.md": "fb8e3d1fde87432b15010b37fa9e79c954c49bcd2acd597121ef242f425447d8",
+        "references/reference-table-formatting-deep-dive.md": "e810853ad7310704b3ba47ec2ad82e90091247ccc0edc41c67f2a2c9530d24be",
+        "references/reference-template-preservation-and-edit-scope.md": "87552b6699db28a47a2fef5c00bf4d26a99fa7676d6f1dfdd9799653f4605c66",
+        "references/reference-trusted-read-wrapper.md": "5908da48d2b09619c3741f11bcca35ba061ee48055fcc2349ffd423059939c6b",
+        "runtime/docs-read-normalizer.mjs": "324de06dedc0476c91f7f3d2fe4b15c4cb992ace2afb9e57df498a994020878a",
+        "runtime/dropdown-common.mjs": "f845319bd56c8bf07f74cc62cfdf10421d58464f0effccf8a720319b091cfba7",
+        "runtime/dropdown-contract.mjs": "2894e9b9ea6304be097e0f8c67e96e7e9bd9a7181c38b95dabd6056cb8197536",
+        "runtime/dropdown-inventory.mjs": "5d4229fc4e37c21921a9e749c07239a9dab36e00c4f6b57baaa8466af4130043",
+        "runtime/dropdown-plan.mjs": "92d39533dd1c908699b5db941f170543bcfccaa8eb8ced7a5d5d332a6d8f8939",
+        "runtime/dropdown-routing.mjs": "2f1ca983fa3a8e21312e4fcad392c8dabd443d3720706fac8239e3dab0b4f8dc",
+        "scripts/build_docs_dropdown_inventory.mjs": "f7e08ad9aa36373043ff1b36fb81e1721b922b0ca6b44a9cb5ee5287535279e1",
+        "scripts/canonicalize_google_workspace_url.mjs": "e439d12ad25f60049c15d8bbfabb9e29fa6b3233c42e653006049127414c2521",
+        "scripts/create_docs_dropdown_execution_context.mjs": "cf8c99d6d2d40409ab36ccebbcc7c54a010178d7bf41e12f52cc12cc96f99ed5",
+        "scripts/freeze_docs_dropdown_contract.mjs": "bb0fe83d265f2db2eb47302514eebb7fca1b844d4be247e63640ffda6dd6e154",
+        "scripts/validate_docs_dropdown_plan.mjs": "1ab562784f52c3aefec0858b5134e5efa0ec7b79b129b9e338576c068e6afdaa"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/skills/google-drive",
+      "path": "archive/codex-plugins/openai-curated-remote/google-drive/0.1.16/skills/google-drive",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "dabae8a192c861b76cf7b5742bdf14f8ed35e67d8e6cacfd5f746ffbefd6da5c",
+        "agents/openai.yaml": "c78a0cff8b8127845b3626ad2fe285ba2333268c5252b124eb3e2ddaa22ba2fb",
+        "assets/app-icon.png": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c",
+        "assets/google-drive-small.svg": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021",
+        "assets/google-drive.png": "a0da54a5f966e876668ab59d8df987ddad1328846216578356e6c10b07791f6c",
+        "assets/google-drive.svg": "5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021",
+        "references/slides/chart-refresh-workflows.md": "0ddbd940cfbd379bef232fc01e628ef02a3b7c2182e7d6983d281199b651f600",
+        "references/slides/deck-scope-verification.md": "7fa958f5dd4e7575857c5e1ff8761646f650694a3bc3cc8ed302943332452c3d",
+        "references/slides/sheets-chart-replacement.md": "601d323942d4a944d8ec84cb8be149ec1d1865ab33ede91bf25d3ca6da3a978a",
+        "references/slides/visual-change-loop.md": "6ab9b64580fe2dcc9def5535de9f549a4728eae26d447fb1d7ba479d04bd25eb"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/skills/google-drive-comments",
+      "path": "archive/codex-plugins/openai-curated-remote/google-drive/0.1.16/skills/google-drive-comments",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a",
+        "agents/openai.yaml": "bda6a87d79d64d386334a79d4dc93963fd8053c2c8af7c8632c16a1df6db295c"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/skills/google-sheets",
+      "path": "archive/codex-plugins/openai-curated-remote/google-drive/0.1.16/skills/google-sheets",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "54d160c27532e4ff610e9c5a7870fb80dc496b2d1d3f302996c21c505419c862",
+        "agents/openai.yaml": "4d55928fc0f63aae133f8c00219e3fd7dfdd3a49ef457ceec6bcf0f014ffae00",
+        "assets/google-sheets-small.svg": "502b9fcfb51a6345d03db408b36be40676ee1483a4efa24a2751ad65128c4945",
+        "assets/google-sheets.png": "e3775513bef981e135ed001ee82be2381e04c6361093628628360b565635e4fe",
+        "references/reference-batch-update-recipes.md": "18e645b4f05f4f399ceff0c2ee62501a38609709b087e7140457eef2c60c8e9e",
+        "references/reference-chart-recipes.md": "f8428db55e2cddee66bf1bf7ced1cbeff75b06893f1477bf175af56bb2026eac",
+        "references/reference-edit-workflow.md": "66c6845a16547d65ac3eaf2ae8b7762fb534f2acfb5700716827b21cff9b149a",
+        "references/reference-formula-patterns.md": "749791a220c1e1ab18f99c0f0be56de106e9e4701d28b82385b673c8f9d1cc56",
+        "references/reference-import-spreadsheet-to-native-sheets.md": "8cbe578b2fa55f1276b16c4bcc343928d9afd3dfc6934e6a02fe9cb4a35c61ed",
+        "references/reference-live-read-search-safety.md": "bd13045e10fd7f8cb5389512ead5dc3482aa04ba328cd95da87a9a09d0b3c981",
+        "references/reference-native-cell-structure.md": "989e30e41ec064712b45966dd88aea8613631653fa981559038d4e0549338e47",
+        "references/reference-visual-quality.md": "869601926708d005d8a9ce7e2ebac859bd31d54d42150b0b8d6f1f2d01b93129",
+        "references/style-profiles.md": "a3afa692e57bb2bcd91aa3ea540147fc0789ce576215d587b2ee55df30e32c65"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/skills/google-slides",
+      "path": "archive/codex-plugins/openai-curated-remote/google-drive/0.1.16/skills/google-slides",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "fd14974d7c4ea9ff134bcc21cd32b2b1d61eeaa77c6dc757075b07eef6bedbdb",
+        "agents/openai.yaml": "c93b66486cc6df212d2eb3fabb57a3495eba07e3ae900612c3c72a1cb2315605",
+        "assets/google-slides-small.svg": "702cb4708c85d38833f075bfbd2870e5cf07f934b2a06124e57a00eafe68b486",
+        "assets/google-slides.png": "b9e27de164f75478c181d2f2804b259f96bcd2d28b8af4328f94ab20dd0cd71d",
+        "host/export-and-render-slides.mjs": "43d2436482267426bd48ec20e11787b7c2f84e72adde26e2fee2d1a121aecec4",
+        "host/export-and-render-slides.test.mjs": "6bc4c07cde3183bd40495a1d985862b432f3e5c1f110d2b309ea803096034ce8",
+        "host/read-template-to-file.mjs": "bdeb61186088aab091f2f8c5330449a6aa5e9e3a1e1abbfc0cf132dfc8b27484",
+        "host/slides-stdin-receiver.pl": "95d9f2fffd6b1eb02292f574370f6424df8daa45969ad1b5f0e617679e39159f",
+        "runtime/common.mjs": "da0497e25983d4cea67f0f588f213d9f587c7f6a865dee28e9d24a7e76b7733e",
+        "runtime/design-system.mjs": "4e393f1486c2e7209fc833fdd2fca4a2094ab3b0ff4e5ce20a83612b441cf0fb",
+        "runtime/media-geometry.mjs": "4d0930a9d2bec3ed29f10a19c430a319dc450bc087c96dbb47239cd5171666b6",
+        "runtime/normalize.mjs": "3b7f5267f61335410b5aeccca75271b7a810e4306ef9edc5e28a3b7be2d0d8fa",
+        "runtime/output-issues.mjs": "45f8a2f8c70c5356b050ba84c1c0a7e3d4b7b421db3929c99af73037d6d3198d",
+        "runtime/result.mjs": "1c516fac28909b0c5f98b07a2cd9378885e9838182a9a0b907b5188c8324eb7e",
+        "scripts/check_output_issues.mjs": "095179a53e10edaaeb1381e7a4a24c1b461c1c61e245b9e707881c8de6a85b9c",
+        "scripts/parse_template_design_system.mjs": "5985a2fba34d769e7839a90fba7745b070d82773b8da4a2e1a77213c70e4c914"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "cf5360fd8b197673bb237c52c603c97fa319c875c3dfa2cd8efff52d4422f513",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "392f620a50c2a39bb3b3e80e376a27385d312ba7a8abf14cfabb7f02f761a273",
+        "assets/preview.png": "b5c458e744d46ef4211d167d3451864148853aa73708323068504da956ce03b3",
+        "assets/reference.xlsx": "ab655c867ea1c9eed617ec0eeec643946c1e49e9d5227e9db740c95daba26e46"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "27721fc1d67d1b41949caa75ac8f94f81952ff124406878af6524047929e60d2",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "cde1beac06ca33c9a0a12c1cbf2b5834dd208a5f732069fd790d7bf9483bcbdd",
+        "assets/preview.png": "af6b092987472013920bb251e0e9d60b97fdb02cc1fd3109abf2b0951bc6aa3c",
+        "assets/reference.pptx": "595b9a314c7e8e9b5f22180e7c7db167afba2437c8623d57e3f9dbc20af392c1"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "563722f53854e606f8a9f87e37e72d7ef70a22d46d5836b8e4d6abfb1b79e9e0",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "bd8e8ba79937d8fc087ced20bab5f25fa9a160303762f7567ef2bdcb739d3f9a",
+        "assets/preview.png": "19cd1f36fbc8d7efbf27a674004f2c22145514e77bee3459fb8cc4a89caf870d",
+        "assets/reference.docx": "ba1e11258ff52659318a321462a5e598c7bed33cf991329eb91150788fcd1a7b"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "0b05effc47df0a14f8e0c3e3597e6722224747435546385d38a2cae279bd20b9",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "861a34c68d0d899bb17029316ca8a3d3951a20c206cb8c1890652c2ff06ca626",
+        "assets/preview.png": "847743ae181c5547e9244823c236408765cff5038e2264e3d72c9e958d30929c",
+        "assets/reference.docx": "d823cd0115186b34c01c6e4b4da3be28b64ee73cac849dbd62d6f4bb6385b0fb"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "c0b6b7a62a15597aaf2b1ec679e21da48f533b756127f0aef957cdfe9f3da738",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "ac5c29e75dc2e335aa4cab9999d291c081cb07b3eaab6eaaae7f6e6068aba2a4",
+        "assets/preview.png": "ed0298a7e15051887ad2e9ca775314de1dfae41de33f7f82fee89f39cdcf20e3",
+        "assets/reference.xlsx": "b15aecd03ee94fc3e29fb5c6de33c6090b75287845ab337afe0376cc0330e052"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "68abd08cfe5e073e3c446a3f675f44c5bf98f57434dba679e8acd8a763379a8b",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "0264537a7b51ef28e41907d34bd09c3e0259045a84f0591e13fd2efd44a3ac69",
+        "assets/preview.png": "4f5efed31db5f4468e8619e6ca579be1c57d84d4a023fe9a7c5ec0deafb0812a",
+        "assets/reference.docx": "0a8a4c5b8b1d8c055e19c9eadcc7eac898899f067cbbd20602c4e7c078e545de"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "51fb9d21baf6119c4ccb1903638a6bac0e859210de63460fffa7025d52e997e0",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "bfd77de2f34d5222e9db4b469aab576426c73b0850f5c3a628e4a5e8f8587887",
+        "assets/preview.png": "362e4d26521d6eadc5be3c0dec37d7000ef8c967883485e94db60149e4f28660",
+        "assets/reference.docx": "d3006f9074e46823d103fe283be19901f55f75c19811558455d7a16c61797355"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "d58d019b89cb6f292ac3ab991d561489eef477ff53ce05fb024a0c936f5af26a",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "fe84725e0c898778a5ed33bfab12a99beb171b08e98a834ebdc55860ac0d4efd",
+        "assets/preview.png": "a27d80525678a8b0b4e2242dd13aca95f7920ac790b1a66e96d8b39cc4a74e8f",
+        "assets/reference.pptx": "52396c3a70dc11d35989bb4e3f9a96d2c728c5eba8a1aad96920cfe24cff59fa"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "880ef094d4d0c89a7bde5ce9bbe4086625c186651e9e6efc8ba8bdd7cc77f9d5",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "f5b9311a53150e4d19c5c90664942a1537a73cec687b128dc6c6301261b803ad",
+        "assets/preview.png": "827df9ab20cdcf07a62955c568343c27f1c597336444c84ad98d7c0ca7983b6b",
+        "assets/reference.docx": "5dd55e0f5bbdb603d98db5b8560b8babc6005cbb7f31ce8ed63569417c5cae86"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "33bb660791a0b9a21628a42c34934932220203b6aabd84e98cb1b45327d0384c",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "cd41437c7fd39159b21d5decedcb3b53c9737e3854b7f9e46efcddfb73f610d5",
+        "assets/preview.png": "9511212decb870cdded2c5ef0388c1bf4b3ee1747020a61f1c3a7078b2cfa6f2",
+        "assets/reference.xlsx": "fef758154889db179aa701a3916d6e6d30c61935b92ad259dd603322888e7f5f"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "6d63c5cd025ffe936e7bab5db3023672bbaec26af55c2bb8b057d38c202c9c32",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "871a705a344c2461bb3fa43495ac9fb9724ee583649cafce9b97a054702b6cae",
+        "assets/preview.png": "e8f1dd91d1258c3bb06d2b1d0c52a49fce454e6682732e2e8f43b37c494e3c19",
+        "assets/reference.pptx": "ec2084d143a4d52857cc06c24129abbb45c45d04b90cca06e319ac26d3cadd4f"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "aa893ebd89e7c8d1db4261d01cc2b1add35d78d00785871ccaaa5fc8db783ec9",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "3f62c61df6cd23f81c6f412994f40ff176b006d40b913b3c423480279eb4aff5",
+        "assets/preview.png": "02823427c2552cc894d333fb96fd2fb3e3ac04503904ab6f73643ca877362df5",
+        "assets/reference.pptx": "b1b15cb0c23ad524f9832749ec31b775719bae2bdba897de9c9d8556ca00a44c"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "d97d5be20189b7f53dd269b6e1c5f694eaf53e5a72f6559fcb1578911b7cda82",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "e858f66b2cd5a17a12ce7059be560d47c429faf34c1665b716c62e67b6b10496",
+        "assets/preview.png": "02811cec6d9b7d493342e03e08b6b56719af1eb6087a50dc6696c600ada90381",
+        "assets/reference.xlsx": "dd8bd283784a189061a328040e845a6d26807e2ee1005a9a195e6dc7baeefe80"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "15cfeeedf440021f16ed3f3ad8c7c1ef6d48898b9447741e223d2fb41cfc9800",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "ea4d9150379ec34447137c436a7459c5f8863e7532a6a87ef1d0871412ee4410",
+        "assets/preview.png": "3208ad8051412202774cfe3f34de468d89a6c1e27cf00166933085f6a167cabe",
+        "assets/reference.xlsx": "a6ac1045a0602cbb4d90878949c2970d0e815dd9f98fe34d0ff92b69ebbb4db3"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "b7c8d0c05f75878b9bc21e56a57c41ec1aa29700aca0a24822be0f9f1bd53207",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "a5c3103290b5e28efec73cf5ad7af7c5a9212ff422256e2e831f11b456e995b9",
+        "assets/preview.png": "2082897b4e30c9a2ed137e51fa32503b1e85afb53c8555521ba374b75df622ec",
+        "assets/reference.pptx": "042ef2fcb8726524a1e773e3c73bf8b8c10b98f67ae675eb01c4501b9365a897"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "7c68430c6cf57b55b457d4735dbd1a46b889bef135a32222902dd0848b6e1752",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "82d2ce0edb52134049718151db345ad1748a358ae1d20c2efe9e274404a1d029",
+        "assets/preview.png": "9c12751105bbdea9e74df059b0b86c6eef22b3af34ba38c090edb7e2e4acf3ac",
+        "assets/reference.pptx": "2ae8105571f68403f438458cd51e6ad14f0d989c7af64239e280437a4ac2a633"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "51d7882ac94e8e57b323394825728c33925af878806e37277217c2dc12a912e5",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "1a277cd3a6fd6be41fee1546183f5ea1119ea7c661e1cf156c6cce9b55c65bd3",
+        "assets/preview.png": "2a615bd6c983a2a747b8cb5ea82e47e92ff3b1736a1d94742c57a9ce42aa1d55",
+        "assets/reference.docx": "13bd3ae7aef4b3ae76c5d65200acd654c922782974dac18672e973fad93bd453"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "87f7b7ed1b0d8410f5e5971cd7f7db9a4165e2f37069e97e52dbfb469b75a57c",
+        "artifact-template.json": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+        "agents/openai.yaml": "fe728562ab2857373f460a25b5954ef532034ab21e10c38b36c739bc5c5ffd77",
+        "assets/preview.png": "703c8a85a22ebaaa129dc99f82e530532b5b46ad862d7cb253716e9759d5dfe0",
+        "assets/reference.docx": "13504f6c221a42c1726460a9e865e563355539ff97d702d6c9b2267b4b261d76"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "26d7cafdcd1899a937b325c5d02ac57c162d45002153be33a934d35f81eb6110",
+        "artifact-template.json": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+        "agents/openai.yaml": "dea3d32230b1e7e62d3f4844d3b1ddceb5f2855cd5fbe31e0849e51e1aa11c1d",
+        "assets/preview.png": "8b91c66156be4dec9eca517ca330c246ca8e863ee9b97b3b93cc159eee362c2d",
+        "assets/reference.pptx": "72b9f23a07bfd679cde36757acb11ec99900b4be0f5d393a5b4e8c6fdce4286d"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast",
+      "path": "archive/codex-plugins/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "74f4a5cccec0107b861548b157e04c51d9b58ec13a990c86394b4c529b8ecf41",
+        "artifact-template.json": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+        "agents/openai.yaml": "240d75e1e7b2f33a16a10538e125342ee6c701637e12c0fbe0d8aad5919b48eb",
+        "assets/preview.png": "2fb61600384025e1266d5f8b9c641cba4b535b78a03173b5d051662f4df48e68",
+        "assets/reference.xlsx": "4a4709ff9b860f762f4c3bb224c5084e9820d9a8d8085395aa121728c899d0c2"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management",
+      "path": "archive/codex-plugins/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "653841cc21205269f08b0ce135891e1518dac616a766bcfb0b57d788d3f68b10"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/sites/0.1.62/skills/sites-building",
+      "path": "archive/codex-plugins/openai-curated-remote/sites/0.1.62/skills/sites-building",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "524e159a007b6bddb79683bbee994383a500862b23e83c4c735e9f9c286f56d6",
+        "references/authentication.md": "7c35d91e3576d34b53aa0c2eecac6cf695c6347605c1214588b54cc2e3c91d67",
+        "references/library-selection.md": "0f002eb766e479d2184a012b6a18574e3364bd3d5c091597fb3c9592c93b7498",
+        "references/persistence-and-storage.md": "64ee58edbc690f4ea63ca58655ff82e0c3910264708cd23b184056d68b0fbf94",
+        "references/registration.md": "ac785a027bdfbe29ef9c9e4d3b91dbadb517802717701293f2733f25b9439013",
+        "references/sqlite.md": "c40381cd84f77d6ba7c0480200e99a8d199384350dc2ed636a1b05361b96a147",
+        "references/starter-capabilities.md": "b8df52b9b43bab0420f685ace518147e4ceab9505a611b712da630f7f5968897",
+        "references/webmcp.md": "7c30c0366b9abf308d24eff24909aa3d91406444afefd9e8ec259771ef902452",
+        "references/preview/managed-linux.md": "029f471f663f789b6a61b4ba553cddaf66c29c46cce0264c91ecaea7c5da0371",
+        "references/preview/portable.md": "5398b276424aaa66d05b7d0cfa6d0d155de3dc30077b341ef0da391d1f4e92ef",
+        "references/project-setup/managed-linux.md": "60b37eb19ed055dc3069095d8fbe1d65e9b7ce4c13f81707ffac342fae01bcf4",
+        "references/project-setup/portable.md": "477b50acefd0ebb49727c43a8e654eeafdd4e62a1a6ddf543230aac2d3cb4ced",
+        "templates/vinext-starter/.gitignore": "55d0a3e1f8e2e31b6fda7293305b96d676e6fcd51a9680d6903dd7240fa0e192",
+        "templates/vinext-starter/.npmrc": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d",
+        "templates/vinext-starter/README.md": "e70d616a37f7fd3e2a8f25c726ffabb389df022581e205088f274abaa77fb68c",
+        "templates/vinext-starter/cloudflare-env.d.ts": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0",
+        "templates/vinext-starter/components.json": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd",
+        "templates/vinext-starter/drizzle.config.ts": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+        "templates/vinext-starter/eslint.config.mjs": "f22a254df7d934bbf9be499d3c969a13abb7f7f64c03f5967d0095cad81dfe06",
+        "templates/vinext-starter/next.config.ts": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+        "templates/vinext-starter/package-lock.json": "a2cdcd4d4c1920532d7b241e3d3fbba1a90417a9cb6d6cd1490286ab3f4fed4b",
+        "templates/vinext-starter/package.json": "481356a14e4fd3bc9c85984315d6c84223fad9fd9bfd7bea314dc69f65bd49e0",
+        "templates/vinext-starter/postcss.config.mjs": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+        "templates/vinext-starter/tsconfig.json": "7199c6e4e400921e8049729840165a39f1476fa97901bed00239e7697bfe8da4",
+        "templates/vinext-starter/vite.config.ts": "4b9d8a6b14fd155328847bc6cd063c6bf44c58c64de8d46911cdf0ede611e367",
+        "templates/vinext-starter/.openai/hosting.json": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947",
+        "templates/vinext-starter/app/chatgpt-auth.ts": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc",
+        "templates/vinext-starter/app/globals.css": "8546d9b115f0addd582f7ceaaa6b1c069310bcc77c43ee7b8acfe0020be3afd7",
+        "templates/vinext-starter/app/layout.tsx": "fb20da0ae67bb49128afe28c32dba4ff1588e70d6c913a64ef8a0b95f94d63da",
+        "templates/vinext-starter/app/page.tsx": "c2293d77b0cff0d149cc153eae96eb6f807f0967b12a177b387f8d9b695f6d7f",
+        "templates/vinext-starter/build/sites-vite-plugin.LICENSE": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713",
+        "templates/vinext-starter/build/sites-vite-plugin.ts": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834",
+        "templates/vinext-starter/components/ui/accordion.tsx": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0",
+        "templates/vinext-starter/components/ui/alert-dialog.tsx": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311",
+        "templates/vinext-starter/components/ui/alert.tsx": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b",
+        "templates/vinext-starter/components/ui/aspect-ratio.tsx": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407",
+        "templates/vinext-starter/components/ui/attachment.tsx": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790",
+        "templates/vinext-starter/components/ui/avatar.tsx": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34",
+        "templates/vinext-starter/components/ui/badge.tsx": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97",
+        "templates/vinext-starter/components/ui/breadcrumb.tsx": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5",
+        "templates/vinext-starter/components/ui/bubble.tsx": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b",
+        "templates/vinext-starter/components/ui/button-group.tsx": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0",
+        "templates/vinext-starter/components/ui/button.tsx": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4",
+        "templates/vinext-starter/components/ui/calendar.tsx": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84",
+        "templates/vinext-starter/components/ui/card.tsx": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c",
+        "templates/vinext-starter/components/ui/carousel.tsx": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3",
+        "templates/vinext-starter/components/ui/chart.tsx": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a",
+        "templates/vinext-starter/components/ui/checkbox.tsx": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27",
+        "templates/vinext-starter/components/ui/collapsible.tsx": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+        "templates/vinext-starter/components/ui/combobox.tsx": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735",
+        "templates/vinext-starter/components/ui/command.tsx": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a",
+        "templates/vinext-starter/components/ui/context-menu.tsx": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017",
+        "templates/vinext-starter/components/ui/dialog.tsx": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14",
+        "templates/vinext-starter/components/ui/direction.tsx": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6",
+        "templates/vinext-starter/components/ui/drawer.tsx": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f",
+        "templates/vinext-starter/components/ui/dropdown-menu.tsx": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a",
+        "templates/vinext-starter/components/ui/empty.tsx": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0",
+        "templates/vinext-starter/components/ui/field.tsx": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd",
+        "templates/vinext-starter/components/ui/form.tsx": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e",
+        "templates/vinext-starter/components/ui/hover-card.tsx": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8",
+        "templates/vinext-starter/components/ui/input-group.tsx": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0",
+        "templates/vinext-starter/components/ui/input-otp.tsx": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299",
+        "templates/vinext-starter/components/ui/input.tsx": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db",
+        "templates/vinext-starter/components/ui/item.tsx": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f",
+        "templates/vinext-starter/components/ui/kbd.tsx": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13",
+        "templates/vinext-starter/components/ui/label.tsx": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c",
+        "templates/vinext-starter/components/ui/marker.tsx": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0",
+        "templates/vinext-starter/components/ui/menubar.tsx": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb",
+        "templates/vinext-starter/components/ui/message-scroller.tsx": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf",
+        "templates/vinext-starter/components/ui/message.tsx": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185",
+        "templates/vinext-starter/components/ui/native-select.tsx": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c",
+        "templates/vinext-starter/components/ui/navigation-menu.tsx": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044",
+        "templates/vinext-starter/components/ui/pagination.tsx": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1",
+        "templates/vinext-starter/components/ui/popover.tsx": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447",
+        "templates/vinext-starter/components/ui/progress.tsx": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d",
+        "templates/vinext-starter/components/ui/radio-group.tsx": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce",
+        "templates/vinext-starter/components/ui/resizable.tsx": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c",
+        "templates/vinext-starter/components/ui/scroll-area.tsx": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043",
+        "templates/vinext-starter/components/ui/select.tsx": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3",
+        "templates/vinext-starter/components/ui/separator.tsx": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e",
+        "templates/vinext-starter/components/ui/sheet.tsx": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16",
+        "templates/vinext-starter/components/ui/sidebar.tsx": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e",
+        "templates/vinext-starter/components/ui/skeleton.tsx": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239",
+        "templates/vinext-starter/components/ui/slider.tsx": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3",
+        "templates/vinext-starter/components/ui/sonner.tsx": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f",
+        "templates/vinext-starter/components/ui/spinner.tsx": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9",
+        "templates/vinext-starter/components/ui/switch.tsx": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae",
+        "templates/vinext-starter/components/ui/table.tsx": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3",
+        "templates/vinext-starter/components/ui/tabs.tsx": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46",
+        "templates/vinext-starter/components/ui/textarea.tsx": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979",
+        "templates/vinext-starter/components/ui/toggle-group.tsx": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e",
+        "templates/vinext-starter/components/ui/toggle.tsx": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16",
+        "templates/vinext-starter/components/ui/tooltip.tsx": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4",
+        "templates/vinext-starter/db/index.ts": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+        "templates/vinext-starter/db/schema.ts": "13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d",
+        "templates/vinext-starter/drizzle/meta/_journal.json": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303",
+        "templates/vinext-starter/examples/d1/app/api/notes/route.ts": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+        "templates/vinext-starter/examples/d1/db/schema.ts": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+        "templates/vinext-starter/hooks/use-mobile.ts": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+        "templates/vinext-starter/lib/utils.ts": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68",
+        "templates/vinext-starter/public/favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+        "templates/vinext-starter/public/file.svg": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
+        "templates/vinext-starter/public/globe.svg": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9",
+        "templates/vinext-starter/public/window.svg": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
+        "templates/vinext-starter/scripts/build-verified.sh": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68",
+        "templates/vinext-starter/scripts/execution-profile.mjs": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630",
+        "templates/vinext-starter/scripts/install-ci.mjs": "63f2c4589b740184b68a0c9214fe92439b6f7d1fbfbec9ef552fd745b0a9c6cc",
+        "templates/vinext-starter/scripts/install-ci.sh": "5161648b51012c7351a4a975c6ed05a67cc1f1d9dbabc4381708d1005d8c4edb",
+        "templates/vinext-starter/scripts/install-pnpm.sh": "db980d931c7d1fb6d64dfede2fc698227d9bbd3bbb94f50a8966d9eb980bf10c",
+        "templates/vinext-starter/scripts/pnpm-install.mjs": "380309d06af721775377f805e90bbba27118e91bf67cd6c87ca59b9ef56453e8",
+        "templates/vinext-starter/scripts/run-framework.mjs": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca",
+        "templates/vinext-starter/scripts/sites-env.mjs": "5de99d6806b01f0ee0b941af3684d75dcf1afbbcff22cb95bfa2e584c5dafa88",
+        "templates/vinext-starter/scripts/sites-env.sh": "df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60",
+        "templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.LICENSE.md": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+        "templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.css": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+        "templates/worker-esm-starter/.gitignore": "d0fc69648a6324ef66f032712b68ae1f0f24a2a954daa8308da38a45c6a6057b",
+        "templates/worker-esm-starter/README.md": "3966998e326874dee3e9469b5d0ee5057ed2a5aa040ee2e6651901f665bfe6ea",
+        "templates/worker-esm-starter/package.json": "5314513e9a77e1bf5602ae4db24ef674bbaf6e6dbc9a006eccd852b33b66f5a5",
+        "templates/worker-esm-starter/.openai/hosting.json": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947",
+        "templates/worker-esm-starter/scripts/build.sh": "76bddebeb2accb38b37de0673778d7bf3119bc7da7ed5ae4c1d4c9884969848f",
+        "templates/worker-esm-starter/scripts/validate-artifact.mjs": "39d9df53ac2461962466d5965c5f4d06f08024ceca40605952d8b753b88d41fd",
+        "templates/worker-esm-starter/worker/index.js": "a71750469f96b32e91201f9cee49525f5bbcfa5b1fc4910f9f0fa99ea231961d"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/sites/0.1.62/skills/sites-hosting",
+      "path": "archive/codex-plugins/openai-curated-remote/sites/0.1.62/skills/sites-hosting",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "0e96467c8426ad13be9affc8e761f0cdd82151381c8dc668b1c8f05340a1fb58",
+        "references/handoff.md": "82a7d89742aff925ee00d1995af5645c2447e4e3a7124ab647e3dbeb3f2a1926",
+        "references/publishing.md": "86e6963aedafbe563cb0176cf14ba7aeebc2a0a2e47ca3cae419e1ede6b8b946",
+        "scripts/package-site.sh": "dc2fe55adac180885d0b9469fd09d5ea7b1824fcea9019fea27ccfda241968e7",
+        "scripts/prepare-site-build.cjs": "32496143dcc6f7e7c5410444e319469e2525c1d2eda0d2ed7c65e7c67995dbe3"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-curated-remote/sites/0.1.62/skills/sites-preview-troubleshooting",
+      "path": "archive/codex-plugins/openai-curated-remote/sites/0.1.62/skills/sites-preview-troubleshooting",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "2244a9ac6059101480ef150b8e057b7183015a8d4fa0f11e20fddfb8865ec309"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents",
+      "path": "archive/codex-plugins/openai-primary-runtime/documents/26.905.11957/skills/documents",
+      "kind": "host-dependent",
+      "files": {
+        "LICENSE.txt": "d31e7017b70c25daf83b7b01804816ddad6bd984b724e03d52b20b9a81746bd1",
+        "SKILL.md": "8ab26c226c6e4919989185934c44091d89dd67c9e86c1b960c3fd8f08dd90ed2",
+        "manifest.txt": "3357b7233af9bc79d448737b6c6c48d991cfab13b8ab48d9dd03817461ee76e4",
+        "render_docx.py": "8b48b8f05f30cc6c7b5a7bd8e18e7ea93a61aec1ea601026a3358b2105f0903a",
+        "template-create.md": "f02df8f6fa8f764de7a9b0ed4dcd38ae3560df364edd259b127bf53c3f496dd3",
+        "template-distill.md": "dd01e59b5ffc7fb28f43fd4bd0eeb02a7d0e881f7d24780d195e6b3f6fc1f658",
+        "writing_quality.md": "f3b37e02e3a2b4890f036ae9f279c2f3ce673b9b2c2d0dd893b998b028261129",
+        "agents/openai.yaml": "8fc41ecccfae0d0310060235a43f9c4aea6e6c2aa05cec737a59599968ec22c4",
+        "assets/file-document.png": "faec8ad51ed2c8db6bb7ba51aa4be1d5d88b80974f7f3c167d56781fbb8d3218",
+        "container_tools/mark_artifact_operation_started.mjs": "703516891e879553004822815dfb454f3277ab22bc031bcc217dd9a4c8825793",
+        "examples/end_to_end_smoke_test.md": "2abd9bdec48f2dcb905bf950423e021b61ca8169f56bcff58b4b3131663aec50",
+        "ooxml/comments.md": "aa8004a76499c36a4046041eaff8966fd3ec43fab3a48e1b158e95534ec61557",
+        "ooxml/hyperlinks_and_fields.md": "88b8615aabd48727086208d981958dc1d74a4432b81060707d97c3ded9d7764c",
+        "ooxml/rels_and_content_types.md": "d64fe64dc3daa56f4c90baa9098f94f6fcf52e5d4ce041ab548392e06c9691c2",
+        "ooxml/tracked_changes.md": "9293157ade79498db26fdb79b3d7835896f4f87ebb73c28eddc6a5e48aae47f3",
+        "references/template-elicitation.md": "ceb9dc18ab22e26cc03eaf7fe62381f5be34a836dd0766b6caa99a099cb3683c",
+        "scripts/a11y_audit.py": "a832e288503704a24ae4e7d9bde4444dee01c835c651f746f19167c4ef4632bf",
+        "scripts/accept_tracked_changes.py": "7842a79bc73941a50318bfb4178fd9c01cec8984a4f10565a08f485282799f06",
+        "scripts/add_tracked_replacements.py": "2c66d170f70335dbfab691e6d76c73e49dd14b753ead0728a55dbf228c510ba5",
+        "scripts/apply_template_styles.py": "47dbba6245fc1f9b5237cb975981ce5c42bb96d513a030ba93c3ad80497ecde9",
+        "scripts/captions_and_crossrefs.py": "2d8db89e3f18b7287877c61b9851d083163d3888c8e8d57b52708c1e63db6d03",
+        "scripts/comments_add.py": "78fbfc023c644466fd0eb9cdf2ac55983bb6aed1c070e8e7a9126b1a6233efe0",
+        "scripts/comments_apply_patch.py": "0c82868fd104f121a830e0394cbf6d6a288e84d8aafddb334ae1298de178edc2",
+        "scripts/comments_extract.py": "9eedfdb515111b77cc04bc30030bae13de907ff2202b838cc9ba37a9b1060c09",
+        "scripts/comments_strip.py": "b3b27cd86527248a54b3794e7e907b244ea4a2e0e9efa726485aa0b296b906ab",
+        "scripts/content_controls.py": "783b38cdbc36864c757c20ec3473d033ead50f2db78b1741405481d070d7c56c",
+        "scripts/docx_ooxml_patch.py": "39a998f10e786d892854246accff85c86548fd58ed1429e94eb98a984023f7bb",
+        "scripts/docx_table_to_csv.py": "fa993cce50372ae2f647387547d5037c9eca66f0bd6d7f94bc0b2ef481c0d55e",
+        "scripts/fields_materialize.py": "d8d0cfe5b0f637e5324bd4ac7d5f384953167acdc247987f491a7d00b4d51889",
+        "scripts/fields_report.py": "807537b56e333c613eac74c4cf288c88908bec5a450d7018c612afd5ef879af7",
+        "scripts/flatten_ref_fields.py": "01e1089664f005e9aa4590dccc4156addc49c9668a8fbb404bde04fe5678cb39",
+        "scripts/footnotes_report.py": "3318c8d535beeee94db3496d80e42a03aeb6522e20f4a4776771f7be677919cb",
+        "scripts/google_docs_title_sanitize.py": "c8dafcef80220593411103ea3caefaa221e0ec7970bf31237f6ffbe762b0d4bf",
+        "scripts/heading_audit.py": "6c95509da0932cf870ead927a5d9f8d0170cdf31d2f6718d64a3641b8f3931dc",
+        "scripts/images_audit.py": "57443a088015fa7a3f28b1f2785d0839cd78b6c6f6dd08eee9601bd7b840bb2c",
+        "scripts/insert_note.py": "9584b502051317923e183b3f45fb78cbb855e1a8e944948976ea854e18f4e5ed",
+        "scripts/insert_ref_fields.py": "4b20bbc5c297d7f607db6428e6ad00580c5411c949dfe52fb13710d7301c917c",
+        "scripts/insert_toc.py": "b069ad3a0c1824742e31c84f417f08b9abba7aff236494544f9a22055ed68943",
+        "scripts/internal_nav.py": "53e1695c08f1abb81b4cd07c97c7e27019214f7dda0e37ca84697bce4cc01292",
+        "scripts/make_fixtures.py": "c11118357e78084345544c2c232c7d0fc785e766c7c7fcc481f59abf4154968c",
+        "scripts/merge_docx_append.py": "0fac13945db9cf61b9cfaa708862dd7ee37fb02d72ae1e8b4745c38ba636d414",
+        "scripts/privacy_scrub.py": "ae8d9bc7ef52cc91370a17070f4ee12b400fa7baf2af0ee403099d7762d072a4",
+        "scripts/redact_docx.py": "cd02f988732823adb6c1524398bf499cf7d93236871262bbab0074b95b7f4310",
+        "scripts/render_and_diff.py": "7b2d613289047a54e8d747520f079c276ab899bd99f76556d5c2827bef2ddb67",
+        "scripts/section_audit.py": "c718d416f0d7512ceadc07f76fefd42d633f443dda3412b0722470ce0302d482",
+        "scripts/set_protection.py": "3a9fa60ee0fe11ba40a97b84ea1b3a10c8595173aedb35f5b95e18911a91bf14",
+        "scripts/style_lint.py": "52e485a8fb96dda954a7f7e88ce3a59714ee1a4c945a41e7dff0d1d77ee5da4d",
+        "scripts/style_normalize.py": "9e293590db1e6b71d932dc3b811d9f8b6d1a4351dc07f8d1ccccd868dcddafe0",
+        "scripts/table_geometry.py": "c792883c6785663588e80900b73f1bbf696a5e48dd2d56718af3bfbfa2d2b42e",
+        "scripts/watermark_add.py": "44f7556f7e6a57ab6ac78f7b9ff35b78e6fa10f2b0c94cf4dc12e5b135330542",
+        "scripts/watermark_audit_remove.py": "ed2b0eb4d58970e8f215656f130240c6bd561fdd4fd1b4887366d7ec055ce156",
+        "scripts/xlsx_to_docx_table.py": "181c3bc9fd8789aab352df984da5ef0cccc4d664a967f51dccaab79815e3c9f2",
+        "tasks/accessibility_a11y.md": "951dca7ba7e520792776a636c22e512a9a3c53699c6da80c5c3e47b0690c1374",
+        "tasks/captions_crossrefs.md": "20a50a2663b2d020d8a7e1bd3a31ae60a45ba41e40b437c9ada4e958987c421f",
+        "tasks/clean_tracked_changes.md": "6bd628bce5a571b73b59993a474bae039a7ea2e63e85f1292996688e1e2fa446",
+        "tasks/comments_manage.md": "2ec577fca8ef24d2ee3df9bbd3268eda9ca54a84169499c2fbb293d08a3bbbe0",
+        "tasks/compare_diff.md": "e06551fbfadd651aa761ba497c04c98449150ddd61ae1221f0ec6f9947fe30a9",
+        "tasks/create_edit.md": "a842b20c8709f8bc19526de246e9f8722b4304d30c7a3d9fb7b111fdd6f8ec65",
+        "tasks/equations.md": "add25da4ccc4a796db1dd4e793e0b45c68c355d531495df9b42539d2076db947",
+        "tasks/fields_update.md": "1ea14774b8e39b37884187e98059e0829e6bc9e0db502b26d4aea38ab68a4148",
+        "tasks/fixtures_edge_cases.md": "41718f5b067990ca5e32f4065bb24ec152b3e9ec110fad6e81e81cc08af48cef",
+        "tasks/footnotes_endnotes.md": "6e8bd0a290fc5261e85c2dfcfcde483c685a0cacd00b24950f1fadad8b7b7072",
+        "tasks/forms_content_controls.md": "d09c066658b0fd8cda6fc51413d57f37dfc12d6828799f52a6137cba20568ec7",
+        "tasks/headings_numbering.md": "36bbf196fecac25e2e8c1239356fa2af6994a8939048eb7b59f14d2c5bc1999c",
+        "tasks/images_figures.md": "482e14799b7021a9c191b320c60e492ab58f6f36a16187586c7f5bff38c85b45",
+        "tasks/multi_doc_merge.md": "9706902b4f91fd8e9af87297a8a66e2767c512a357511ca3ae9bcc56f1a4cd35",
+        "tasks/navigation_internal_links.md": "33ee4fa5c4e051a0216728a43f92d4de8319169080834b008c48a837bc5acdbd",
+        "tasks/privacy_scrub_metadata.md": "6a1360d873bcade5dd2989f5406ea1c415dbcb52da25cc6c3580da3126880b93",
+        "tasks/protection_restrict_editing.md": "97024dcc16af3b3666a2d1fc7ae8199f18d881ea62cdb367bd4d37ad0e9e8f53",
+        "tasks/read_review.md": "ed1bce5450e03011225dbd2974f307cd5dec6fa48bde0a071e4907fd06f6bb16",
+        "tasks/redaction_anonymization.md": "df3b89d5bacc8405e73f4ec16056a78dc655c6d181086a1b37464038cae2bd02",
+        "tasks/sections_layout.md": "3b36b7f96ee095c66d4e3d24681b0b9cd1b6b82b1b3b5491aeb748545c89f5cf",
+        "tasks/style_lint_normalize.md": "993bb9c5129dc6ccb63d28b95f4e3bc5f716eee9fd6a6c75c106031ed42b12e8",
+        "tasks/tables_spreadsheets.md": "eeb08bc4d64db98679a5648a041f7786dca160f35c0909a10b7963e1af3f88db",
+        "tasks/templates_style_packs.md": "a75db63fcdfd135bab27b164fe7747adda75c63501e6300d7eb5d56b9fc6a580",
+        "tasks/toc_workflow.md": "ae2c36431d7ba8f7be1fad51c5af79831f4e38441060ca5fb0058247a54e9ab9",
+        "tasks/verify_render.md": "e94db9fefda34eefb65ea527467d8307eb0e834dca2705b04d027a426ebc9d9b",
+        "tasks/watermarks_background.md": "9f87e23d4b5e54edb1560367e231bb3c0a6ef88193c600af8842d8537dcb9757",
+        "troubleshooting/libreoffice_headless.md": "929b2b124ce2e65b3de17565a8aad2ff9d569f38ae648ec7ca0e3bed87041ae8",
+        "troubleshooting/run_splitting.md": "37df942902847797e8060308121d3db10273f71fd9dac748e0157e3c29624b85"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/pdf/26.905.11957/skills/pdf",
+      "path": "archive/codex-plugins/openai-primary-runtime/pdf/26.905.11957/skills/pdf",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "9e429bfc5ada20ccf25a531484e3dcc5da59811d936a7cc5dfd23dbf2dfadd31",
+        "agents/openai.yaml": "5819dd168e544e3293d1501174130c56e139eb37c7d176884d8c6de4b9354f56",
+        "assets/file-document.png": "bbb3c29874cb3bc706eef9ba4436c7ef8ef33462a173c4c3d4deeec774e4da79",
+        "container_tools/mark_artifact_operation_started.mjs": "968d66a7b491c7728f2ab009dcb54ac0025d6f474de6f3734f66b8809f6c18a8"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/presentations/26.905.11957/skills/presentations",
+      "path": "archive/codex-plugins/openai-primary-runtime/presentations/26.905.11957/skills/presentations",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "1491c1aa68c19ccc75e4eda7f7c66d664f8da503e376b31e4552310309446fba",
+        "style_guidelines.md": "b682d1beb638b6ce77ecab86f83afcbde7a68207a749bc7994d8fd805feec619",
+        "agents/openai.yaml": "35fa03254b9d9e2c859a2e1d343406df161e70c07af43a352fc6424d01c03776",
+        "artifact_tool_docs/API_QUICK_START.md": "c375de120d6df12778a401a1fccffad517bd190bebcc3b78ec5c093a3af09acf",
+        "artifact_tool_docs/api/API_DOCS.md": "01ad12df21f3a9d23a70553cb99a538625c03dcac5c4fd1e201f4d4879958e0b",
+        "artifact_tool_docs/api/references/auto-layout.spec.md": "e58ac421e5aed6e944cab4fb3e59e3d5b33874844485fe89571ee2b6e3319051",
+        "artifact_tool_docs/api/references/charts.spec.md": "aae6b1c6b775dc4e8267c81d380149d3bcd7f27c7fb220d94bd1b823535c63c5",
+        "artifact_tool_docs/api/references/comments.md": "7289cf3218ca948898f3d38a0a7951062b719277472c18ce2f672314dea0c416",
+        "artifact_tool_docs/api/references/connectors.md": "1bb0ef8f48e82d24be7e28eb1b5ab8b2aa662304e6d024246e651058dd8fc725",
+        "artifact_tool_docs/api/references/fill.spec.md": "2d4ed7fe6eb20feb2edc3ee807a9c4366f96c1b890878620869145bc1eec3e28",
+        "artifact_tool_docs/api/references/help.md": "087277c6b7c572dfd7b52ecc6c8cc9affbf33ab56c0b928651b18f476e03e044",
+        "artifact_tool_docs/api/references/images.spec.md": "9b57f40b2d85a84ee4d935edc2f1e23fbcc6a64b0476bc712db56f87dc7db4e2",
+        "artifact_tool_docs/api/references/inspect.md": "f6fc114bd681164a1707bb4396c2c3415a22c7c82aded6934e20d8e7e8270b82",
+        "artifact_tool_docs/api/references/jsx.md": "9c2e19cd311afef6b0367d6e8f54fadab5f49fa0883bee995112fdf4eded0d0b",
+        "artifact_tool_docs/api/references/layout.spec.md": "68eaa0c7917606b25d7843cc7ea5be87a8b71aba9b3ac2c9f289306b3a657c2b",
+        "artifact_tool_docs/api/references/master.spec.md": "25f5032926c3bd7345ca46ca4bc7401d837e8c3d4645853ebd0c21e4d842ac4f",
+        "artifact_tool_docs/api/references/presentation.spec.md": "de32f33d55adce36532de2ff4586ce198f8094cac99ee2ae65ec95bd411e7bfb",
+        "artifact_tool_docs/api/references/rich-text.spec.md": "b68cc411e5106d2fc309917b6efdec10bcbd1f193b74cc60a7e10af9fa1b3469",
+        "artifact_tool_docs/api/references/shapes.spec.md": "5afbe2cea704055d737fddfae2d678836fc065706b9bb58d1224632e532c809c",
+        "artifact_tool_docs/api/references/slide.spec.md": "4bb61d90bb2491301f5835aca8e74058fb9e02fdeeefeefae14c86cbd1803b69",
+        "artifact_tool_docs/api/references/speaker-notes.spec.md": "770efeb887a9f0145f34f0a41990ed49c7d613e28035225682a33b7ebeaaa6b4",
+        "artifact_tool_docs/api/references/styles.spec.md": "142d7abd0e54404fa49067f9a294bf20512540b89d304174386c4db90a73e74c",
+        "artifact_tool_docs/api/references/tables.spec.md": "bda6b14ac9815eb78600014db6a761ee902e94d40cef1ab2653ea6d3b1f96a76",
+        "artifact_tool_docs/api/references/theme.spec.md": "3c30018de19af6d2908aaa0f84f5098a8881ed2413577057adb5c77625d9319c",
+        "artifact_tool_docs/api/references/tokens.md": "aa7601c6e7156d45ceeba151ad48633f8556a080678b7ee44daa74c32b42c478",
+        "artifact_tool_docs/api/references/cookbook/imported-deck.md": "960250650c69106a2c9539f31da7ecc20b645c748e8c9972960235de250ef988",
+        "artifact_tool_docs/api/references/cookbook/layout.md": "75484d640897d2ec8614aefcee6e17bb714b54eb2744c707562a632267e57264",
+        "assets/file-presentation.png": "a3c03edcadfe5af5a06c709b264d276d7e8ac6e150d69729c502459998b2a680",
+        "container_tools/artifact_tool_utils.mjs": "17e988ef8c486800328e624154aa20b42c30fa85a236f60fbc9254d7a86bf18f",
+        "container_tools/create_montage.py": "1b9031247132b787748ccd5f65d29f2be6e25bc362578e2cf040b3394811e86b",
+        "container_tools/ensure_raster_image.py": "2c3bc18a8cddf737f5b3f769561b2cf8c55fe190387e53c2487f7c1b4d0ae8a7",
+        "container_tools/inspect_presentation_layout_geometry.py": "cfdc5076ffc4bc8c0c1d4578b6ce64c883e2d514780348bb278365fdb9f0e10d",
+        "container_tools/inspect_presentation_package_integrity.py": "b54cb6004fe58213bcf4268c355e3f15ea78cd9dbfe0c955d65e92024fe080c8",
+        "container_tools/mark_artifact_operation_started.mjs": "6f46ccf38f7d266ad459309233c597d8f7221ad3fda26af91aeba80bbcd322dd",
+        "container_tools/materialize_literal_chart_workbooks.py": "5f9c89e72f0dd3e8aeca48d2ac7c429fb57dd801e4d3fb57d9c71d189154c8bd",
+        "container_tools/native_chart_title_gate.py": "494f8dddc3de753fda80f61498c07ca0e744e585a0b84f46ba9e2a88dfb1613f",
+        "container_tools/native_quantitative_chart_gate.py": "047ac10a0acda115d95a551c91fe16225aaa8d44735170091c80294518225c60",
+        "container_tools/native_table_arithmetic_gate.py": "604db17de8cce452c515a8e7929bf1fccfc08ad7851ac29eff1a9b70879a50b0",
+        "container_tools/rasterize_svg.mjs": "73d9ed4573d4a286c1dae520245df86885520f6c85dc83e19649d962e4852982",
+        "container_tools/render_presentation.mjs": "49024ae5949965f2d163daafb05d4e33b543ea59007a95253a78183b9357c1b8",
+        "container_tools/render_slides.py": "af5fbe8caf40be4ba57ad42993ff0c3792c0a7e97bd65bbba86ed1494911a220",
+        "container_tools/runtime_helpers.mjs": "19caf37906712693b6bbb1b20729f51cd90698b2f069679cc78078eb9c923688",
+        "container_tools/runtime_helpers.py": "93322ca08c0bf5e29e7fd1297d1b3cfc307550cf4251098b366bf4cc42b4370a",
+        "container_tools/slides_test.py": "e0f660c3a03c524e54a2b0ac4cdd55646502f18bad409593d056a1ea570f5de0",
+        "container_tools/template_source_fidelity_gate.py": "0e070dce9102403cdd418bfe0810c23f8886d074430ba8fe597cde352a83b7be",
+        "domain_guidance/finance.md": "a0c1799721deab74867b624b15bee44f80a4bd7a6813db2f0bcd61ad90c6b41a",
+        "references/cover_art_direction.md": "753e58efd6da31fc68076c554ae919e46893d7a0a15f37c4cf357e7c41025d00",
+        "references/finalization.md": "7a4f6609e928041dc6338dff0e8632b936b05c8358d2a937796c5ece8846daa1",
+        "references/implementation.md": "797de82fbe324ff30229190c433ccb13122eb2570040c747cd76d9b78a09d4a4",
+        "references/native_bullets.md": "727fc17af9a12fb6937b1a7ac41ba6d99ce0e28ced94c06df3c05fd33ecca15d",
+        "references/native_evidence.md": "9aadd5bfb102663a9b4cf1b9282fa209645e6ce1906381c2c9e0e573659b4cc3",
+        "references/template-elicitation.md": "b0aab045f830d6a05dbab2bd7d9ca747bd68826e69328e01479589026f7ab7c0",
+        "references/template_following.md": "16ce4367c3029497bb441c850c577dbfb8de767cb450d52d8c0be9688dcd0649",
+        "routing/google_slides.md": "9d7c457194ccccb3db9089effbd57c28d471494d8ab64010319604f2e81313d5",
+        "template_following_scripts/check_template_fidelity.mjs": "204c580f53818ca188b04af66b2cec6e588520d832bc9f25305686893bf0bd18",
+        "template_following_scripts/inspect_template_deck.mjs": "03a8ea3b36a7b1859ccda3b2cce7c3c73bb0c691fa0114548b804bf5a5465661",
+        "template_following_scripts/make_contact_sheet.py": "69a1f031bca5e0a214aaa848460b36ee17c641b8865d7a5d0a9a0308dea320e8",
+        "template_following_scripts/prepare_template_starter_deck.mjs": "67b18d023a5c28e6c8e9c8d7a139ec441b55ae73f8f3159d122f4b2d34c371bf",
+        "template_following_scripts/validate_template_plan.mjs": "d8aad11b03275eaf800f96ec6c58731c68033312f5b13a44f5c9291ca5e3bacf"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.905.11957/skills/excel-live-control",
+      "path": "archive/codex-plugins/openai-primary-runtime/spreadsheets/26.905.11957/skills/excel-live-control",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "dde282af0ea3e186b04830a1255ce0eeade63042d53a2516ccb4c816986467a2",
+        "officejs.md": "cb3d4292191d6a6adfc5251b88ea5a62aab75bb5c9c863fc1ed546b881045955",
+        "style_guidelines.md": "a0e328147991a4acc3d867d8e10a0a6697373ff2fe43eefd41646c83b29ad630",
+        "agents/openai.yaml": "e7dd753d45019ad2196cef0e2dd866e50bb14832f0653d019d69b0eb4d1a82ea",
+        "domain_guidance/financial_models.md": "fb53fa81fd0b6acfa9fdfc3946af1f95312bd02c3367caae51f28bf68ca6bba6",
+        "domain_guidance/healthcare.md": "8edae030b3abb0ef178f5a38691f64d7d9f4a462a70c0656ae8650605363f921",
+        "domain_guidance/marketing_advertising.md": "b2e087facba8e407fb5d47d55505ea544ca7c7ff5d402fd6a535093df740d086",
+        "domain_guidance/scientific_research.md": "bad46ddb8561c02b5460cd8dcb9bc9018b8b24df03a6688af7b9a3977b5b298c",
+        "features/charts.md": "a5bb73e5a3c0f7ec44cf0737d5dc25ae690e420a99d37e23cf8144d8316f56a3",
+        "references/image-references.md": "7fe546860468950ed80f428c79eea269383aa30f421b957546666ee15161e6b8",
+        "references/read_only_qna.md": "993fa777f0f3003c2a1c3b2021a1f9d78f7a177620603e47cc9cff097cf156fd",
+        "workflows/create_workflows.md": "b24cbf85c4358c2269352bf44002ad5a1e24174983010a836f5ead6e6c0b3958",
+        "workflows/edit_workflows.md": "d195ef03edbb07036706659bfc899b97afd0aa6121f7d607c1d1e0cd8a47f8e8"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.905.11957/skills/spreadsheets",
+      "path": "archive/codex-plugins/openai-primary-runtime/spreadsheets/26.905.11957/skills/spreadsheets",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "b9d22e609239db30ad5a88452b71f9913d5baf4bac5c26864cbfcd8a455e8f5b",
+        "style_guidelines.md": "a0e328147991a4acc3d867d8e10a0a6697373ff2fe43eefd41646c83b29ad630",
+        "agents/openai.yaml": "18eb739db3a18e7d1bbd2c17b6884eff011f9b07814ab23216aba926b4de9cd7",
+        "artifact_tool_docs/API_QUICK_START.md": "313e2256d212671638006006926bd80474ba04c9347d2caff7f575e9ea958ab2",
+        "artifact_tool_docs/DATA_TABLES.md": "627423c5c263a0df909c3f7b2253098d80a2c10f068c0756a828d68509d3021e",
+        "artifact_tool_docs/SPARKLINES.md": "284d40cb8624604c638bd3131b004db73fc193bce421e0a085959e0ea6f1afef",
+        "assets/file-spreadsheet.png": "3a1c5e6c52a1877942b8ef8654247fbe1c4a82f6df8ef464dc99983fc72cd6fb",
+        "container_tools/mark_artifact_operation_started.mjs": "fd95cb9918e52bbc2323ed1854fdc7510361f66cbe50446f6fcf0b9b21fa1ded",
+        "domain_guidance/financial_models.md": "fb53fa81fd0b6acfa9fdfc3946af1f95312bd02c3367caae51f28bf68ca6bba6",
+        "domain_guidance/healthcare.md": "8edae030b3abb0ef178f5a38691f64d7d9f4a462a70c0656ae8650605363f921",
+        "domain_guidance/marketing_advertising.md": "b2e087facba8e407fb5d47d55505ea544ca7c7ff5d402fd6a535093df740d086",
+        "domain_guidance/scientific_research.md": "bad46ddb8561c02b5460cd8dcb9bc9018b8b24df03a6688af7b9a3977b5b298c",
+        "features/charts.md": "a5bb73e5a3c0f7ec44cf0737d5dc25ae690e420a99d37e23cf8144d8316f56a3",
+        "references/image-references.md": "7fe546860468950ed80f428c79eea269383aa30f421b957546666ee15161e6b8",
+        "references/read_only_qna.md": "993fa777f0f3003c2a1c3b2021a1f9d78f7a177620603e47cc9cff097cf156fd",
+        "references/template-elicitation.md": "3f87388cf81f6cbc72949a6842b614bbc373238bf0f52f7d43d25e9b4dab757a",
+        "routing/google_sheets.md": "187712ad3479ce82f0333d0843cb18de929f4dc8eba44a08923f2cee787b39c1",
+        "workflows/create_workflows.md": "b24cbf85c4358c2269352bf44002ad5a1e24174983010a836f5ead6e6c0b3958",
+        "workflows/edit_workflows.md": "d195ef03edbb07036706659bfc899b97afd0aa6121f7d607c1d1e0cd8a47f8e8"
+      }
+    },
+    {
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/template-creator/26.905.11957/skills/template-creator",
+      "path": "archive/codex-plugins/openai-primary-runtime/template-creator/26.905.11957/skills/template-creator",
+      "kind": "host-dependent",
+      "files": {
+        "SKILL.md": "244bfef01d3e17c6013952ccf34621a90ddfee9c7828058245c3c46f51114944",
+        "agents/openai.yaml": "8bd3aac1e414a976ed07104a66439d368eefdaa13ab1ad869ad9a4466146481e",
+        "assets/site-preview.png": "0f644a80c9832957d40fb50ba72fc13a75c4f7f6085f59aaa62fdd5f361ae871",
+        "host/export-google-workspace-file.mjs": "e3f569243d0a7243e2e9579d26e24d95315dd7a69f70f06fa6fcb027f07f12e9",
+        "host/google-workspace-export-stdin-receiver.mjs": "d4dbac9ee213eb3b8cd6ac656af0268f1fb826f2020967dc0a6e4dd8c4d9a111",
+        "scripts/create-template-skill.mjs": "bc95d9b3663dd8842b752d145d63e4b7d283a9d5da4e886dd7e10d732da6a4a8"
+      }
+    }
+  ]
+}

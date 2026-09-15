@@ -1,0 +1,48 @@
+#!/bin/bash
+set -euo pipefail
+
+start_sound=/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga
+end_sound=/usr/share/sounds/freedesktop/stereo/complete.oga
+
+has_player() {
+  [[ -x /usr/bin/pw-play ]] \
+    || [[ -x /usr/bin/paplay ]] \
+    || [[ -x /usr/bin/canberra-gtk-play ]] \
+    || [[ -x /usr/bin/ffplay ]]
+}
+
+check_dependencies() {
+  [[ -r $start_sound ]] || return 1
+  [[ -r $end_sound ]] || return 1
+  has_player
+}
+
+if [[ ${1:-} == --check ]]; then
+  check_dependencies
+  exit
+fi
+
+case ${1:-} in
+  break-start)
+    sound_file=$start_sound
+    ;;
+  break-end)
+    sound_file=$end_sound
+    ;;
+  *)
+    printf 'usage: %s {break-start|break-end|--check}\n' "$0" >&2
+    exit 2
+    ;;
+esac
+
+check_dependencies
+
+if [[ -x /usr/bin/pw-play ]]; then
+  exec /usr/bin/pw-play --volume 1.0 "$sound_file"
+elif [[ -x /usr/bin/paplay ]]; then
+  exec /usr/bin/paplay "$sound_file"
+elif [[ -x /usr/bin/canberra-gtk-play ]]; then
+  exec /usr/bin/canberra-gtk-play --file "$sound_file"
+else
+  exec /usr/bin/ffplay -nodisp -autoexit -loglevel quiet "$sound_file"
+fi

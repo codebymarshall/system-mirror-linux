@@ -57,6 +57,8 @@ done < "$script_dir/plugins/omarchy.tsv"
 "$script_dir/apply.sh"
 
 mise install
+python3 "$script_dir/scripts/skills.py" install --agent both --replace
+python3 "$script_dir/scripts/skills.py" install-instructions --replace
 
 omarchy default browser "$SYSTEM_MIRROR_BROWSER"
 omarchy default terminal "$SYSTEM_MIRROR_TERMINAL"

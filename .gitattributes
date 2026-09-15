@@ -1,0 +1,5 @@
+# Preserve captured skill bytes and hashes across operating systems.
+ai-skills/library/** -text
+ai-skills/archive/** -text
+scripts/skills.py text eol=lf
+tests/test_skills.py text eol=lf

@@ -27,7 +27,7 @@ The recorded baseline was audited on Omarchy 4.0.3. The setup is desired-state a
    ./doctor.sh
    ```
 
-Bootstrap is idempotent and safe to rerun. It installs missing packages, copies managed files with one `.bak` generation, configures the Logitech devices, enables Voxtype, restores Omarchy defaults/theme selections, installs Mise tools, and performs the health check.
+Bootstrap is idempotent and safe to rerun. It installs missing packages, copies managed files with one `.bak` generation, configures the Logitech devices, enables Voxtype, restores Omarchy defaults and theme selections, installs Mise tools, installs the saved AI skills and global host instructions, and performs the health check.
 
 ## Commands
 
@@ -37,21 +37,25 @@ Bootstrap is idempotent and safe to rerun. It installs missing packages, copies 
 ./doctor.sh                    # Read-only health report
 ./apply.sh --no-runtime        # Copy files without touching the current session
 ./apply.sh --target-home /tmp/test-home --no-runtime
+python3 scripts/skills.py verify
+python3 scripts/skills.py install --agent both
+python3 scripts/skills.py install-instructions
 ```
 
 ## Managed state
 
 - `config/hypr`: bindings, workspaces, window placement, monitor defaults, autostart, night-light, and screen-sharing portal configuration.
-- `config/omarchy`: shell layout and widgets, the named/occupied workspace widget, and the custom Masseffect palette and Wallhaven background.
+- `config/omarchy`: shell layout and widgets, the named/occupied workspace widget, the Movement Breaks countdown and alerts, and the custom Masseffect palette and Wallhaven background.
 - `plugins/omarchy.tsv`: trusted third-party shell plugin sources pinned to the versions used by the saved bar layout.
 - `config/solaar` and `settings.env`: the captured MX Master 3S and MX Keys S settings, gestures, and physical device IDs. Host/pairing slots are deliberately not replayed.
 - `config/foot`: terminal sizing, clipboard keys, and Shift+Enter behavior.
-- `config/mise`: Codex CLI, GitHub CLI, and Node tool versions.
+- `config/mise`: Codex CLI, .NET, GitHub CLI, and Node tool versions.
 - `config/git`: an included aliases/workflow/identity file that preserves machine-local credential helpers.
 - `config/voxtype` and `config/systemd`: dictation settings and daemon.
 - `config/Cursor`: the current editor theme preference. Cursor intentionally has no dedicated Hyprland keybinding.
 - `bin`: the MX-aware keybinding menu, repository-aware LazyGit launcher, and occupied-workspace cycler.
 - `packages`: additions to a stock Omarchy installation.
+- `ai-skills`, `scripts/skills.py`, and `tests/test_skills.py`: the saved skill collection, portable installer, global host instructions, and installer tests.
 
 ## Intentionally not copied
 
@@ -71,6 +75,13 @@ gh auth setup-git
 
 If either Logitech device was asleep during bootstrap, wake it and rerun `./apply.sh`, followed by `./doctor.sh`.
 
-## Global AI skills
+## Global agent setup
 
-The shared [skills collection](https://github.com/codebymarshall/system-mirror/tree/main/ai-skills) remains in the main System Mirror repository and installs separately from Omarchy setup. Follow its installation guide to copy personal skills into the current user's Codex and Claude Code directories.
+The [skills collection](ai-skills/README.md), installer, global host instructions, and host research live in this repository. Bootstrap installs them automatically. To reinstall them without running the rest of bootstrap:
+
+```bash
+python3 scripts/skills.py install --agent both
+python3 scripts/skills.py install-instructions
+```
+
+The first command installs the personal skills for Codex and Claude Code. The second installs the standing writing policy and automatic skill-routing instructions for every supported agent host. Re-run both commands after this repository changes.

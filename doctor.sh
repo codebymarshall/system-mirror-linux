@@ -43,6 +43,12 @@ check_managed_file() {
 check_manifest "$script_dir/packages/official.txt"
 check_manifest "$script_dir/packages/aur.txt"
 
+if python3 "$script_dir/scripts/skills.py" verify >/dev/null 2>&1; then
+  pass "saved AI skill collection"
+else
+  fail "saved AI skill collection did not pass verification"
+fi
+
 plugins_root="$config_root/omarchy/plugins"
 while IFS=$'\t' read -r plugin_id plugin_url plugin_commit; do
   [[ -z $plugin_id || $plugin_id == \#* ]] && continue
@@ -77,11 +83,24 @@ for file in \
   omarchy/shell.json \
   omarchy/themes/masseffect/colors.toml \
   omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
+  omarchy/plugins/jonathan.movement-breaks/manifest.json \
+  omarchy/plugins/jonathan.movement-breaks/BarWidget.qml \
+  omarchy/plugins/jonathan.movement-breaks/Service.qml \
+  omarchy/plugins/jonathan.movement-breaks/README.md \
   omarchy/plugins/jonathan.workspaces/manifest.json \
   omarchy/plugins/jonathan.workspaces/Workspaces.qml \
   Cursor/User/settings.json; do
   check_managed_file "$source_root/$file" "$config_root/$file"
 done
+
+movement_sound_helper="omarchy/plugins/jonathan.movement-breaks/play-sound"
+check_managed_file "$source_root/$movement_sound_helper" "$config_root/$movement_sound_helper"
+[[ -x "$config_root/$movement_sound_helper" ]] \
+  && pass "Movement Breaks sound helper is executable" \
+  || fail "Movement Breaks sound helper is not executable"
+"$source_root/$movement_sound_helper" --check \
+  && pass "Movement Breaks sound dependencies" \
+  || fail "Movement Breaks sound dependencies are unavailable"
 
 if git config --file "$config_root/git/config" --get-all include.path 2>/dev/null | grep -Fqx '~/.config/git/system-mirror.config'; then
   pass "Git SystemMirror include"
