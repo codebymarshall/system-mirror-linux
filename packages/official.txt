@@ -8,10 +8,13 @@ fzf
 git
 jq
 lazygit
+lmstudio-bin
 mise-bin
+nordvpn-bin
 openai-codex-desktop
 ripgrep
 solaar
+tailscale
 voxtype-bin
 wev
 zoxide

@@ -29,6 +29,8 @@ The recorded baseline was audited on Omarchy 4.0.3. The setup is desired-state a
 
 Bootstrap is idempotent and safe to rerun. It installs missing packages, copies managed files with one `.bak` generation, configures the Logitech devices, enables Voxtype, restores Omarchy defaults and theme selections, installs Mise tools, installs the saved AI skills and global host instructions, and performs the health check.
 
+Package restoration uses `packages/official.txt` and `packages/aur.txt`. Bootstrap passes those manifests to `omarchy pkg add` and `omarchy pkg aur add`, so packages already supplied by Omarchy are skipped and only missing packages are installed. Add future user-installed packages to the matching manifest to include them on the next machine.
+
 ## Commands
 
 ```bash
