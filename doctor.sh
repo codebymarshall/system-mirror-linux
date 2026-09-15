@@ -43,6 +43,24 @@ check_managed_file() {
 check_manifest "$script_dir/packages/official.txt"
 check_manifest "$script_dir/packages/aur.txt"
 
+plugins_root="$config_root/omarchy/plugins"
+while IFS=$'\t' read -r plugin_id plugin_url plugin_commit; do
+  [[ -z $plugin_id || $plugin_id == \#* ]] && continue
+
+  plugin_dir="$plugins_root/$plugin_id"
+  if [[ ! -d $plugin_dir/.git ]]; then
+    fail "Omarchy plugin $plugin_id is missing"
+  elif [[ $(git -C "$plugin_dir" remote get-url origin 2>/dev/null) != "$plugin_url" ]]; then
+    fail "Omarchy plugin $plugin_id has an unexpected origin"
+  elif [[ $(git -C "$plugin_dir" rev-parse HEAD 2>/dev/null) != "$plugin_commit" ]]; then
+    fail "Omarchy plugin $plugin_id is not at the recorded commit"
+  elif [[ -n $(git -C "$plugin_dir" status --short) ]]; then
+    fail "Omarchy plugin $plugin_id has local changes"
+  else
+    pass "Omarchy plugin $plugin_id"
+  fi
+done < "$script_dir/plugins/omarchy.tsv"
+
 for file in hyprland.lua bindings.lua autostart.lua window-rules.lua input.lua looknfeel.lua monitors.lua hyprsunset.conf xdph.conf; do
   check_managed_file "$source_root/hypr/$file" "$config_root/hypr/$file"
 done
@@ -57,6 +75,8 @@ for file in \
   foot/foot.ini \
   systemd/user/voxtype.service \
   omarchy/shell.json \
+  omarchy/themes/masseffect/colors.toml \
+  omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
   omarchy/plugins/jonathan.workspaces/manifest.json \
   omarchy/plugins/jonathan.workspaces/Workspaces.qml \
   Cursor/User/settings.json; do
@@ -69,7 +89,7 @@ else
   fail "Git SystemMirror include is missing"
 fi
 
-for binary in omarchy-menu-keybindings-mx system-mirror-lazygit system-mirror-workspace-cycle; do
+for binary in omarchy-menu-keybindings-mx system-mirror-lazygit system-mirror-workspace-cycle system-mirror-workspace-layout-toggle; do
   check_managed_file "$script_dir/bin/$binary" "$local_bin/$binary"
   [[ -x "$local_bin/$binary" ]] && pass "$binary is executable" || fail "$binary is not executable"
 done

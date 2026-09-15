@@ -93,6 +93,8 @@ for file in \
   foot/foot.ini \
   systemd/user/voxtype.service \
   omarchy/shell.json \
+  omarchy/themes/masseffect/colors.toml \
+  omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
   omarchy/plugins/jonathan.workspaces/manifest.json \
   omarchy/plugins/jonathan.workspaces/Workspaces.qml \
   Cursor/User/settings.json; do
@@ -112,7 +114,7 @@ if ! git config --file "$git_config" --get-all include.path 2>/dev/null | grep -
   updated=1
 fi
 
-for binary in omarchy-menu-keybindings-mx system-mirror-lazygit system-mirror-workspace-cycle; do
+for binary in omarchy-menu-keybindings-mx system-mirror-lazygit system-mirror-workspace-cycle system-mirror-workspace-layout-toggle; do
   install_managed_file "$script_dir/bin/$binary" "$local_bin/$binary" 0755 || true
 done
 

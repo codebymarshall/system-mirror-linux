@@ -42,7 +42,8 @@ Bootstrap is idempotent and safe to rerun. It installs missing packages, copies 
 ## Managed state
 
 - `config/hypr`: bindings, workspaces, window placement, monitor defaults, autostart, night-light, and screen-sharing portal configuration.
-- `config/omarchy`: shell layout and the named/occupied workspace widget.
+- `config/omarchy`: shell layout and widgets, the named/occupied workspace widget, and the custom Masseffect palette and Wallhaven background.
+- `plugins/omarchy.tsv`: trusted third-party shell plugin sources pinned to the versions used by the saved bar layout.
 - `config/solaar` and `settings.env`: the captured MX Master 3S and MX Keys S settings, gestures, and physical device IDs. Host/pairing slots are deliberately not replayed.
 - `config/foot`: terminal sizing, clipboard keys, and Shift+Enter behavior.
 - `config/mise`: Codex CLI, GitHub CLI, and Node tool versions.

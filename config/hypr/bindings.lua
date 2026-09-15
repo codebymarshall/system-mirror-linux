@@ -13,6 +13,7 @@ local system_mirror_overrides = {
   "SUPER + SHIFT + UP",           -- was: Swap window up
   "SUPER + SHIFT + DOWN",         -- was: Swap window down
   "SUPER + O",                    -- was: Pop window out
+  "SUPER + L",                    -- was: Toggle workspace layout
   "SUPER + F",                    -- was: Full screen
   "SUPER + T",                    -- was: Toggle floating/tiling
   "SUPER + SHIFT + SPACE",        -- was: Toggle top bar
@@ -65,6 +66,7 @@ o.bind("SUPER + Q", "Close window", hl.dsp.window.close())
 o.bind("SUPER + F", "Toggle fullscreen", hl.dsp.window.fullscreen({ mode = "fullscreen" }))
 o.bind("SUPER + T", "Toggle tiling/floating", hl.dsp.window.float({ action = "toggle" }))
 o.bind("SUPER + SHIFT + SPACE", "Toggle floating", hl.dsp.window.float({ action = "toggle" }))
+o.bind("SUPER + L", "Toggle workspace layout", "system-mirror-workspace-layout-toggle")
 o.bind("SUPER + D", "Application launcher", "omarchy-menu toggle apps")
 
 -- Applications. Cursor is intentionally not assigned a dedicated binding.

@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+workspace_json=$(hyprctl activeworkspace -j)
+workspace_name=$(jq -r '.name // empty' <<<"$workspace_json")
+current_layout=$(jq -r '.tiledLayout // empty' <<<"$workspace_json")
+
+if [[ ! $workspace_name =~ ^[A-Za-z0-9._-]+$ ]]; then
+  echo "Unsupported workspace name: $workspace_name" >&2
+  exit 1
+fi
+
+case "$current_layout" in
+  dwindle) new_layout=scrolling ;;
+  *) new_layout=dwindle ;;
+esac
+
+state_home=${XDG_STATE_HOME:-$HOME/.local/state}
+layouts_dir="$state_home/omarchy/workspace-layouts"
+layout_file="$layouts_dir/$workspace_name.lua"
+workspace_selector="name:$workspace_name"
+
+mkdir -p -- "$layouts_dir"
+printf 'hl.workspace_rule({ workspace = "%s", layout = "%s" })\n' \
+  "$workspace_selector" "$new_layout" >"$layout_file"
+
+result=$(hyprctl eval "hl.workspace_rule({ workspace = \"$workspace_selector\", layout = \"$new_layout\" })")
+if [[ $result != ok ]]; then
+  echo "Hyprland rejected the workspace layout rule: $result" >&2
+  exit 1
+fi
+
+applied_layout=$(hyprctl activeworkspace -j | jq -r '.tiledLayout // empty')
+if [[ $applied_layout != "$new_layout" ]]; then
+  echo "Workspace layout remained '$applied_layout'; expected '$new_layout'." >&2
+  exit 1
+fi
+
+omarchy-notification-send -g 󱂬 "Workspace layout set to $new_layout"

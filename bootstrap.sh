@@ -33,6 +33,27 @@ if (( ${#aur_packages[@]} > 0 )); then
   fi
 fi
 
+plugins_root="${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins"
+while IFS=$'\t' read -r plugin_id plugin_url plugin_commit; do
+  [[ -z $plugin_id || $plugin_id == \#* ]] && continue
+
+  plugin_dir="$plugins_root/$plugin_id"
+  if [[ ! -d $plugin_dir/.git ]]; then
+    omarchy plugin add "$plugin_url" --yes
+  fi
+
+  actual_origin=$(git -C "$plugin_dir" remote get-url origin 2>/dev/null || true)
+  if [[ $actual_origin != "$plugin_url" ]]; then
+    echo "Plugin $plugin_id has unexpected origin: $actual_origin" >&2
+    exit 1
+  fi
+
+  if [[ $(git -C "$plugin_dir" rev-parse HEAD) != "$plugin_commit" ]]; then
+    git -C "$plugin_dir" fetch --quiet origin "$plugin_commit"
+    git -C "$plugin_dir" checkout --quiet --detach "$plugin_commit"
+  fi
+done < "$script_dir/plugins/omarchy.tsv"
+
 "$script_dir/apply.sh"
 
 mise install

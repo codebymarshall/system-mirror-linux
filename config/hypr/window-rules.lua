@@ -5,7 +5,7 @@
 -- skip empty workspaces while Super+1…7 can still create them on demand.
 
 -- Home (ChatGPT and Google Calendar)
-o.window("^(ChatGPT|com\\.openai\\.[Cc]hat[Gg][Pp][Tt]|.+-chatgpt\\.com__.*|.+-calendar\\.google\\.com__.*)$", {
+o.window("^([Cc]hat[Gg][Pp][Tt]|com\\.openai\\.[Cc]hat[Gg][Pp][Tt]|.+-chatgpt\\.com__.*|.+-calendar\\.google\\.com__.*)$", {
   workspace = "name:Home silent",
 })
 
