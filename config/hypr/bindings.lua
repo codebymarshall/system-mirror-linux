@@ -62,8 +62,6 @@ o.bind("SUPER + I", "Shrink window height", hl.dsp.window.resize({ x = 0, y = -4
 
 -- Window management.
 o.bind("SUPER + Q", "Close window", hl.dsp.window.close())
-o.bind("SUPER + M", "Minimize to scratchpad", hl.dsp.window.move({ workspace = "special:scratchpad", follow = false }))
-o.bind("SUPER + CTRL + M", "Show or hide minimized windows", hl.dsp.workspace.toggle_special("scratchpad"))
 o.bind("SUPER + F", "Toggle fullscreen", hl.dsp.window.fullscreen({ mode = "fullscreen" }))
 o.bind("SUPER + T", "Toggle tiling/floating", hl.dsp.window.float({ action = "toggle" }))
 o.bind("SUPER + SHIFT + SPACE", "Toggle floating", hl.dsp.window.float({ action = "toggle" }))
@@ -92,7 +90,7 @@ o.bind("SUPER + A", "Previous active workspace", hl.dsp.focus({ workspace = "e-1
 
 o.bind("SUPER + SHIFT + A", "Move workspace to left monitor", hl.dsp.workspace.move({ monitor = "l" }))
 o.bind("SUPER + SHIFT + F", "Move workspace to right monitor", hl.dsp.workspace.move({ monitor = "r" }))
-o.bind("SUPER + SHIFT + D", "Move workspace to upper monitor", hl.dsp.workspace.move({ monitor = "u" }))
+o.bind("SUPER + SHIFT + D", "Docker", { tui = "omarchy-launch-docker-tui" })
 o.bind("SUPER + SHIFT + S", "Screenshot", "omarchy-capture-screenshot")
 
 -- System and configuration.
