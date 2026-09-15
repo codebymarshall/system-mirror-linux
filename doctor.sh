@@ -81,7 +81,12 @@ for file in \
   foot/foot.ini \
   systemd/user/voxtype.service \
   omarchy/shell.json \
+  omarchy/branding/about.png \
+  omarchy/branding/about.txt \
+  omarchy/branding/screensaver.png \
+  omarchy/branding/screensaver.txt \
   omarchy/themes/masseffect/colors.toml \
+  omarchy/themes/masseffect/assets/preview.png \
   omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
   omarchy/plugins/jonathan.movement-breaks/manifest.json \
   omarchy/plugins/jonathan.movement-breaks/BarWidget.qml \
@@ -92,6 +97,12 @@ for file in \
   Cursor/User/settings.json; do
   check_managed_file "$source_root/$file" "$config_root/$file"
 done
+
+if cmp -s -- "$source_root/plymouth/omarchy/logo.png" /usr/share/plymouth/themes/omarchy/logo.png; then
+  pass "Plymouth boot logo"
+else
+  fail "Plymouth boot logo differs from the managed asset"
+fi
 
 movement_sound_helper="omarchy/plugins/jonathan.movement-breaks/play-sound"
 check_managed_file "$source_root/$movement_sound_helper" "$config_root/$movement_sound_helper"

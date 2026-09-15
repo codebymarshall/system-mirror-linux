@@ -45,7 +45,8 @@ python3 scripts/skills.py install-instructions
 ## Managed state
 
 - `config/hypr`: bindings, workspaces, window placement, monitor defaults, autostart, night-light, and screen-sharing portal configuration.
-- `config/omarchy`: shell layout and widgets, the named/occupied workspace widget, the Movement Breaks countdown and alerts, and the custom Masseffect palette and Wallhaven background.
+- `config/omarchy`: shell layout and widgets, the named/occupied workspace widget, the Movement Breaks countdown and alerts, the About and screensaver branding, and the custom Masseffect palette, preview, and Wallhaven background.
+- `config/plymouth`: the Marshall Systems logo used by the boot splash.
 - `plugins/omarchy.tsv`: trusted third-party shell plugin sources pinned to the versions used by the saved bar layout.
 - `config/solaar` and `settings.env`: the captured MX Master 3S and MX Keys S settings, gestures, and physical device IDs. Host/pairing slots are deliberately not replayed.
 - `config/foot`: terminal sizing, clipboard keys, and Shift+Enter behavior.

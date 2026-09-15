@@ -66,13 +66,19 @@ install_managed_file() {
     return 1
   fi
 
-  mkdir -p -- "$(dirname -- "$target")"
+  mkdir -p -- "$(dirname -- "$target")" || {
+    echo "FAIL unable to create: $(dirname -- "$target")" >&2
+    exit 1
+  }
   if [[ -f $target ]]; then
     cp -p -- "$target" "$target.bak"
     echo "BACKUP $target.bak"
   fi
 
-  install -m "$mode" -- "$source" "$target"
+  install -m "$mode" -- "$source" "$target" || {
+    echo "FAIL unable to install: $target" >&2
+    exit 1
+  }
   echo "APPLY  $target"
   updated=1
   return 0
@@ -93,7 +99,12 @@ for file in \
   foot/foot.ini \
   systemd/user/voxtype.service \
   omarchy/shell.json \
+  omarchy/branding/about.png \
+  omarchy/branding/about.txt \
+  omarchy/branding/screensaver.png \
+  omarchy/branding/screensaver.txt \
   omarchy/themes/masseffect/colors.toml \
+  omarchy/themes/masseffect/assets/preview.png \
   omarchy/themes/masseffect/backgrounds/wallhaven-y85j1d.png \
   omarchy/plugins/jonathan.movement-breaks/manifest.json \
   omarchy/plugins/jonathan.movement-breaks/BarWidget.qml \
@@ -166,6 +177,15 @@ fi
 if command -v systemctl >/dev/null 2>&1; then
   systemctl --user daemon-reload
   systemctl --user enable --now voxtype.service
+fi
+
+plymouth_logo_source="$source_root/plymouth/omarchy/logo.png"
+plymouth_logo_target="/usr/share/plymouth/themes/omarchy/logo.png"
+if ! cmp -s -- "$plymouth_logo_source" "$plymouth_logo_target"; then
+  sudo install -m 0644 -- "$plymouth_logo_source" "$plymouth_logo_target"
+  sudo mkinitcpio -P
+  echo "APPLY  Plymouth boot logo"
+  updated=1
 fi
 
 if command -v hyprctl >/dev/null 2>&1 && [[ -n ${HYPRLAND_INSTANCE_SIGNATURE:-} ]]; then
